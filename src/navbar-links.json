@@ -67,12 +67,12 @@
     "subPaths": [
       {
         "name": "Samarkand State Medical University Prospectus",
-        "path": "samarkand-state-medical-university-prospectus",
+        "path": "/SSMU Vision-med Prospectus 2024",
         "subPaths": null
       },
       {
         "name": "Bukovinian State Medical University Prospectus",
-        "path": "bukovinian-state-medical-university-prospectus",
+        "path": "/BSMU Vision-med Prospectus 2024",
         "subPaths": null
       }
     ]
