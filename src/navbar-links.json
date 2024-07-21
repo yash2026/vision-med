@@ -22,11 +22,6 @@
         "name": "Bukovinian State Medical University",
         "path": "bukovinian-state-medical-university",
         "subPaths": null
-      },
-      {
-        "name": "University Of Warmia And Mazury In Olsztyn",
-        "path": "university-of-warmia-and-mazury-in-olsztyn",
-        "subPaths": null
       }
     ]
   },
@@ -78,11 +73,6 @@
       {
         "name": "Bukovinian State Medical University Prospectus",
         "path": "bukovinian-state-medical-university-prospectus",
-        "subPaths": null
-      },
-      {
-        "name": "University Of Warmia And Mazury In Olsztyn Prospectus",
-        "path": "university-of-warmia-and-mazury-in-olsztyn-prospectus",
         "subPaths": null
       }
     ]
