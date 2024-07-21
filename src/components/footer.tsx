@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="mt-auto flex flex-col items-center py-5 gap-2 border-t-1">
+    <div className="mt-auto flex flex-row justify-around max-[580px]:flex-col items-center py-5 gap-2 border-t-1">
       <div className="flex items-center gap-4 text-sm font-medium">
         <Link href={"/terms-and-conditions"} className="hover:text-blue-500">
           Terms & Conditions
