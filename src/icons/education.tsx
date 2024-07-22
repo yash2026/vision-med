@@ -12,6 +12,7 @@ export default function Education(props: ComponentPropsWithoutRef<"svg">) {
       viewBox="0 0 32 32"
       style={{ enableBackground: "new 0 0 32 32" } as any}
       xmlSpace="preserve"
+      {...props}
     >
       <style type="text/css">
         {`

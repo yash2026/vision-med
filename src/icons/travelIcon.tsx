@@ -14,6 +14,7 @@ export default function TravelIcon(props: ComponentPropsWithoutRef<"svg">) {
       viewBox="0 0 100 100"
       enable-background="new 0 0 100 100"
       xmlSpace="preserve"
+      {...props}
     >
       <path
         d="M89.938,31.113c-0.638-3.626-6.058-5.703-12.096-4.635l-43.223,7.621L18.594,20l-8.206,1.445l5.631,15.931L10,38.438

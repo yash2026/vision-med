@@ -20,6 +20,7 @@ export default function VisaIcon(props: ComponentPropsWithoutRef<"svg">) {
       }}
       viewBox="0 0 2000 2000"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      {...props}
     >
       <defs>
         <style type="text/css">

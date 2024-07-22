@@ -7,6 +7,7 @@ export default function EasyAdm(props: ComponentPropsWithoutRef<"svg">) {
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
+      {...props}
     >
       <title>mobile, phone, smartphone, history, Time</title>
       <path d="M21.91,14.47a5,5,0,1,1-5.42-4.92l-1.06,1.07,1.4,1.4,3.51-3.51L16.83,5l-1.4,1.4,1.13,1.14a6.95,6.95,0,1,0,7.34,6.93Z"></path>

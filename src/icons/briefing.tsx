@@ -12,6 +12,7 @@ export default function Briefing(props: ComponentPropsWithoutRef<"svg">) {
       viewBox="0 0 348.6694 181.446"
       enable-background="new 0 0 348.6694 181.446"
       xmlSpace="preserve"
+      {...props}
     >
       <g>
         <path

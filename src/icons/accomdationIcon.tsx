@@ -22,6 +22,7 @@ export default function AccomdationIcon(
       }}
       viewBox="0 0 1707 1707"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      {...props}
     >
       <defs>
         <style type="text/css">

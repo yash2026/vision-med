@@ -2,7 +2,7 @@ import React, { ComponentPropsWithoutRef } from "react";
 
 export default function Culture(props: ComponentPropsWithoutRef<"svg">) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" {...props}>
       <defs>
         <style>
           {`
