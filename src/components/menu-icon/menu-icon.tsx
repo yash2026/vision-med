@@ -23,7 +23,7 @@ export default function MenuIcon() {
         </svg>
       </label>
       <TruthyRenderer value={toggle}>
-        <NavbarMenu setToggle={setToggle} />
+        <NavbarMenu closeState={setToggle} />
       </TruthyRenderer>
     </>
   );

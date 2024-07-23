@@ -13,10 +13,10 @@ export default function NavbarLink({
 }) {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="relative">
+    <div className="relative h-full">
       <TruthyRenderer value={!!navbarLink?.path}>
         <Link
-          className="text-sm text-black/80 py-5 hover:text-black"
+          className="text-sm text-black/80  hover:text-black h-full flex items-center"
           href={navbarLink?.path!}
         >
           {navbarLink.name}
@@ -24,7 +24,7 @@ export default function NavbarLink({
       </TruthyRenderer>
       <TruthyRenderer value={!navbarLink?.path}>
         <div
-          className="flex items-center gap-2 text-sm text-black/80 py-5 hover:text-black"
+          className="flex items-center h-full gap-2 text-sm text-black/80 py-5 hover:text-black"
           onMouseEnter={() => setToggle(true)}
           onMouseLeave={() => setToggle(false)}
         >

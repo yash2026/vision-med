@@ -7,8 +7,8 @@ import MenuIcon from "./menu-icon/menu-icon";
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-10 border-b-1  px-10 bg-white">
-      <WidthWrapper className="flex justify-between items-center ">
+    <header className="fixed top-0 left-0 w-full z-10 border-b-1 h-[70px]  px-10 bg-white">
+      <WidthWrapper className="flex justify-between items-center h-full">
         <div className="flex-1 max-[800px]:py-2">
           <Link href={"/"}>
             <img src="/logo.jpg" alt="img" className="w-20" />
@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="hidden max-[800px]:block">
           <MenuIcon />
         </div>
-        <div className="flex items-center gap-6 max-[800px]:hidden">
+        <div className="flex items-center gap-6 max-[800px]:hidden h-full">
           {navbarLinks?.map((item, index) => (
             <NavbarLink navbarLink={item} key={index} />
           ))}
