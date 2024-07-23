@@ -7,7 +7,7 @@ export default function WidthWrapper({
 }: ComponentPropsWithoutRef<"div">) {
   return (
     <div
-      className={`w-[1200px] mx-auto max-[1210px]:w-full ${className}`}
+      className={`w-[1200px] mx-auto max-[1250px]:w-full ${className}`}
       {...props}
     >
       {children}

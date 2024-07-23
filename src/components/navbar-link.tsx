@@ -36,7 +36,7 @@ export default function NavbarLink({
         <div
           onMouseLeave={() => setToggle(false)}
           onMouseEnter={() => setToggle(true)}
-          className="absolute top-full left-0 shadow-xl border z-20 p-2 flex flex-col gap-2 bg-white min-w-[200px] rounded silde-up"
+          className="absolute top-full max-[1200px]:right-0 min-[1200px]:left-0 shadow-xl border z-20 p-2 flex flex-col gap-2 bg-white min-w-[200px] rounded silde-up"
         >
           {navbarLink?.subPaths?.map((item, index) => (
             <Link
