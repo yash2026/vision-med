@@ -1,3 +1,9 @@
+import { Card } from "@/components/why-choose-us/card";
+
 export default function Home() {
-  return <div className="pt-[80px]">Welcome to the vison med</div>;
+  return (
+    <div className="pt-[80px]">
+      <Card />
+    </div>
+  );
 }
