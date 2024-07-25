@@ -3,7 +3,7 @@ import WidthWrapper from "./width-wrapper";
 
 export default function Footer() {
   return (
-    <footer className="border-t-1 mt-auto">
+    <footer className="border-t-1 mt-auto max-[1200px]:px-10">
       <WidthWrapper className=" flex flex-row justify-between max-[580px]:flex-col items-center py-5 gap-2">
         <div className="flex items-center gap-4 text-sm font-medium">
           <Link href={"/terms-and-conditions"} className="hover:text-blue-500">
