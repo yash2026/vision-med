@@ -7,7 +7,7 @@ import MenuIcon from "./menu-icon/menu-icon";
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-10 border-b-1 h-[70px]  px-10 bg-white">
+    <header className="fixed top-0 left-0 w-full z-10 border-b-1 h-[70px] px-10 bg-white max-[640px]:px-6">
       <WidthWrapper className="flex justify-between items-center h-full">
         <div className="flex-1 max-[800px]:py-2">
           <Link href={"/"}>
