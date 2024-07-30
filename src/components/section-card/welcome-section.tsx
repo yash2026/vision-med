@@ -18,7 +18,7 @@ export default function WelcomeSection() {
   return (
     <WidthWrapper>
       <WelcomeSectionLayout.Root>
-        <WelcomeSectionLayout.FlexChildLayout className="flex flex-col gap-4 text-sm">
+        <WelcomeSectionLayout.FlexChildLayout className="flex flex-col gap-8 text-sm">
           <WelcomeSectionLayout.ContentHeading className="text-[25px]">
             Welcome To MBBS With MD House
           </WelcomeSectionLayout.ContentHeading>
