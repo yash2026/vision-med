@@ -10,7 +10,7 @@ export default function NavbarMenu({
 }) {
   const [toggle, setToggle] = useState<string | null>(null);
   return (
-    <div className="bg-white fixed top-[70px] left-0 w-screen h-[calc(100vh-70px)] flex flex-col gap-4 p-8">
+    <div className="bg-white fixed top-[70px] left-0 w-screen h-[calc(100vh-70px)]  flex flex-col gap-4 p-8">
       {navbarLinks?.map((item) => (
         <>
           <TruthyRenderer value={!!item?.path}>

@@ -15,7 +15,7 @@ function Callicon(props: ComponentPropsWithoutRef<"svg">) {
     >
       <style
         type="text/css"
-        dangerouslySetInnerHTML={{ __html: "\n\t.st0{fill:#000000;}\n" }}
+        dangerouslySetInnerHTML={{ __html: "\n\t.st0{fill:#fff;}\n" }}
       />
       <g>
         <path
