@@ -1,0 +1,80 @@
+{
+  "Quicklink": [
+    {
+      "name": "Home",
+      "path": "/home"
+    },
+    {
+      "name": "About Us",
+      "path": "aboutus"
+    },
+    {
+      "name": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "name": "Contact Us",
+      "path": "/contactus"
+    },
+    {
+      "name": "Blog",
+      "path": "/blog"
+    }
+  ],
+  "Countries": [
+    {
+      "name": "Uzbekistan",
+      "path": "/uzbekistan"
+    },
+    {
+      "name": "Poland",
+      "path": "/poland"
+    },
+    {
+      "name": "Ukraine",
+      "path": "/ukraine"
+    },
+    {
+      "name": "Georgia",
+      "path": "/georgia"
+    },
+    {
+      "name": "Romania",
+      "path": "/romania"
+    }
+  ],
+  "Universities": [
+    {
+      "name": "Samarkand State Medical university",
+      "path": "/samarkand"
+    },
+    {
+      "name": "Bukovinian State Medical university",
+      "path": "/bukovinian"
+    },
+    {
+      "name": "Top MBBS in Abroad Medical Universities Country Wise List",
+      "path": "/topmbbs"
+    },
+    {
+      "name": "University of Warmia and Mazury",
+      "path": "/warmia&mazury"
+    }
+  ],
+  "Quick Contacts": [
+    {
+      "name": "SCO- 76, 1st Floor, Tribune road, Sector-20C, Chandigarh.(U.T)",
+      "icon": ""
+    },
+    {
+      "name": "+91-172-4695222, +91-92163-23222",
+      "icon": "",
+      "path": ""
+    },
+    {
+      "name": "info@themdhouse.com",
+      "icon": "",
+      "path": ""
+    }
+  ]
+}
