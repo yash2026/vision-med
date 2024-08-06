@@ -4,7 +4,7 @@ import * as Section4Layout from "./section-card";
 
 function Section4card() {
   return (
-    <WidthWrapper>
+    <WidthWrapper className="max-[1250px]:px-10 max-[600px]:px-4">
       <Section4Layout.Root className="pt-12">
         <Section4Layout.FlexChildLayout>
           <Image

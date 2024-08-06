@@ -4,7 +4,7 @@ import * as Section3Layout from "./section-card";
 
 function Section3card() {
   return (
-    <WidthWrapper>
+    <WidthWrapper className="max-[1250px]:px-10 max-[600px]:px-4">
       <Section3Layout.Root className="pt-12">
         <Section3Layout.FlexChildLayout className="flex flex-col gap-4 leading-9 text-sm">
           <Section3Layout.ContentHeading className="text-[25px]">

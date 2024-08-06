@@ -6,7 +6,7 @@
     },
     {
       "name": "About Us",
-      "path": "aboutus"
+      "path": "/aboutus"
     },
     {
       "name": "Gallery",
@@ -64,7 +64,8 @@
   "Quick Contacts": [
     {
       "name": "SCO- 76, 1st Floor, Tribune road, Sector-20C, Chandigarh.(U.T)",
-      "icon": ""
+      "icon": "",
+      "path": ""
     },
     {
       "name": "+91-172-4695222, +91-92163-23222",
