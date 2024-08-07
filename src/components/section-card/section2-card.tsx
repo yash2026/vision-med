@@ -19,25 +19,25 @@ function Section2card() {
             Samarkand State Medical University, Uzbekistan
           </Section2Layout.ContentHeading>
           <p className="leading-7">
-            Samarkand State Medical University is Central Asia's oldest medical
-            university,which is providing high-quality training to medical
-            professionals of the highest calibre. Samarkand State Medical
-            University was founded back in 1930. The university is situated in
-            Samarkand city, one of the most beautiful & safest cities in the
-            world, which has long been a centre of scientific thinking and
-            brimming culture. Earning a reputation of having and propagating
-            wholesome and technically sound academia over the years. MBBS in
-            Samarkand State Medical University, among other disciplines, have
-            been evolving with the times aided with internet technology combined
-            with electronic and modular educational systems that provide
-            electronic teaching and learning materials facilitating distance
-            learning too.
+            Samarkand State Medical University is Central Asia&apos;s oldest
+            medical university,which is providing high-quality training to
+            medical professionals of the highest calibre. Samarkand State
+            Medical University was founded back in 1930. The university is
+            situated in Samarkand city, one of the most beautiful & safest
+            cities in the world, which has long been a centre of scientific
+            thinking and brimming culture. Earning a reputation of having and
+            propagating wholesome and technically sound academia over the years.
+            MBBS in Samarkand State Medical University, among other disciplines,
+            have been evolving with the times aided with internet technology
+            combined with electronic and modular educational systems that
+            provide electronic teaching and learning materials facilitating
+            distance learning too.
           </p>
           <p className="leading-7">
-            Being only one university among other institutes in Uzbekistan's
-            NMC-approved universities, it is unquestionably a stand-out choice
-            for international medical students interested in pursuing an MBBS
-            course in Uzbekistan.
+            Being only one university among other institutes in
+            Uzbekistan&apos;s NMC-approved universities, it is unquestionably a
+            stand-out choice for international medical students interested in
+            pursuing an MBBS course in Uzbekistan.
           </p>
         </Section2Layout.FlexChildLayout>
       </Section2Layout.Root>

@@ -10,7 +10,7 @@ function Testimonialcards({ image, name, description }: TestimonialType) {
           <div className="flex flex-col gap-3 p-4 items-center text-center">
             <p>{image}</p>
             <p className="font-bold text-[20px] leading-6">{name}</p>
-            <p className=" leading-7">"{description}"</p>
+            <p className="leading-7">{description}</p>
           </div>
         </CardBody>
       </Card>

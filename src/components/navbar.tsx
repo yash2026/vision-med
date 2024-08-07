@@ -4,6 +4,7 @@ import { Button } from "@nextui-org/react";
 import navbarLinks from "@/navbar-links.json";
 import NavbarLink from "./navbar-link";
 import MenuIcon from "./menu-icon/menu-icon";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -11,7 +12,13 @@ export default function Navbar() {
       <WidthWrapper className="flex justify-between items-center h-full">
         <div className="flex-1 max-[800px]:py-2">
           <Link href={"/"}>
-            <img src="/logo.jpg" alt="img" className="w-20" />
+            <Image
+              src="/logo.jpg"
+              width={80}
+              height={50}
+              alt="img"
+              className="w-20 h-auto"
+            />
           </Link>
         </div>
         <div className="hidden max-[800px]:block">

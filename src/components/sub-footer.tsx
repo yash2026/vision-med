@@ -16,7 +16,9 @@ function Subfooter() {
               {(subfooter as Record<string, { name: string; path: string }[]>)[
                 footerKey
               ]?.map((link, index) => (
-                <Link key={index} href={link.path} children={link.name} />
+                <Link key={index} href={link.path}>
+                  {link.name}
+                </Link>
               ))}
             </div>
           </div>

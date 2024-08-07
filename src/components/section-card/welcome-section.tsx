@@ -71,7 +71,7 @@ function AboutMD() {
     <>
       <div className="grid grid-cols-2 gap-3">
         {data.map((item, index) => (
-          <div className="flex gap-1">
+          <div key={index} className="flex gap-1">
             <TickIcon />
             <p>{item}</p>
           </div>

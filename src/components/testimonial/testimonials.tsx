@@ -40,7 +40,7 @@ function Testimonials() {
           </p>
           <div className="flex gap-3">
             {testimonialData.map((item, index) => (
-              <Testimonialcards {...item} />
+              <Testimonialcards key={index} {...item} />
             ))}
           </div>
         </div>
