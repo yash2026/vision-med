@@ -57,7 +57,7 @@ function Whychooseus() {
             </p>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-4">
           {chooseusData.map((item, index) => (
             <Choosecards key={index} {...item} />
           ))}

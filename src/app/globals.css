@@ -18,6 +18,10 @@
   }
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .color {
   color: #a97c25;
 }
