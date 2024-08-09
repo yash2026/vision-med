@@ -13,7 +13,6 @@ function Choosecards({ description, digit, icon, title }: WhyDataType) {
                 src={icon}
                 className="h-16 w-16 justify-self-center text-[#2F4688]"
               />
-
               <p className="text-[70px] font-bold text-black/25 pr-2">
                 0{digit}
               </p>
