@@ -1,45 +1,41 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import WidthWrapper from "../width-wrapper";
 import Choosecards from "./choose-cards";
-import Reward from "@/icons/reward";
-import EasyAdm from "@/icons/easyadm";
-import Education from "@/icons/education";
-import Culture from "@/icons/culture";
 
 export type WhyDataType = {
-  icon: ReactNode;
+  icon: string;
   digit: number;
   title: string;
   description: string;
 };
 const chooseusData: WhyDataType[] = [
   {
-    icon: <Reward width={40} height={40} />,
+    icon: "/rewards.svg",
     digit: 1,
     title: "Rewarding Color",
     description:
       "Students pursuing higher education from abroad can have a rewarding career promising the benefit of higher and stable earnings with endless growth in the modern day life.",
   },
   {
-    icon: <Culture width={40} height={40} />,
+    icon: "/easyadm.svg",
     digit: 2,
-    title: "Easy Admission Process ",
+    title: "Easy Admission Process",
     description:
       "The admission process for study abroad is free from hassle. It is a few step procedures that an applicant need to follow for admission to MBBS and other courses.",
   },
   {
-    icon: <Education width={40} height={40} />,
+    icon: "/culture.svg",
     digit: 3,
-    title: "Easy Admission Process ",
-    description:
-      "The admission process for study abroad is free from hassle. It is a few step procedures that an applicant need to follow for admission to MBBS and other courses.",
-  },
-  {
-    icon: <Reward width={40} height={40} />,
-    digit: 4,
-    title: "International Culture ",
+    title: "International Culture",
     description:
       "Indian students get the opportunity to interact with students from different nations and learn about the different international culture. It gives exposure to International Culture. ",
+  },
+  {
+    icon: "/education.svg",
+    digit: 4,
+    title: "World Class Education",
+    description:
+      "The universities and colleges abroad provide the opportunity of world-class education to the international students interested in higher studies top ranked educational institutions.",
   },
 ];
 
