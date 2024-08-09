@@ -23,7 +23,7 @@ export const Card: FC<CardProps> = ({
 }) => {
   return (
     <div
-      className="border border-gray-500 rounded-lg p-3 shadow-md hover:border-b-5 hover:border-b-[#A97C25]"
+      className="border border-gray-500 rounded-lg p-3 shadow-md hover:border-b-5 hover:border-b-[#a97c25]"
       style={{ width, height }}
       {...props}
     >
