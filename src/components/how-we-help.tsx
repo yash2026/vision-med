@@ -1,10 +1,10 @@
 import React from "react";
 import WidthWrapper from "./width-wrapper";
 import AdmSupport from "@/icons/admSupport";
-import VisaIcon from "@/icons/visaicon";
 import Image from "next/image";
 import Coaching from "@/icons/coaching";
 import Hostels from "@/icons/hostels";
+import VisaTravel from "@/icons/visaTravel";
 
 function Howhelp() {
   return (
@@ -18,7 +18,7 @@ function Howhelp() {
           there not only for your admission but also for your graduation!
         </p>
       </div>
-      <div className="grid grid-cols-[1fr_2fr_1fr] text-sm">
+      <div className="grid grid-cols-[1fr_1.5fr_1fr] text-sm">
         <div className="flex flex-col gap-20">
           <div className="flex gap-2 items-start">
             <div className="w-[60px]">
@@ -37,7 +37,7 @@ function Howhelp() {
 
           <div className="flex gap-2">
             <div className="w-[60px]">
-              <VisaIcon width={60} height={60} />
+              <VisaTravel width={60} height={60} />
             </div>
 
             <div className="flex flex-col gap-4 leading-7">
