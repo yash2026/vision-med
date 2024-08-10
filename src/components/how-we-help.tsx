@@ -71,6 +71,7 @@ function Howhelp() {
               <p>
                 Attend FMGE/NEXT Coaching during your study, within the
                 university and get the best career guidance from the experts.
+                make changes in the universtity.
               </p>
             </div>
           </div>
