@@ -30,23 +30,13 @@
     "path": null,
     "subPaths": [
       {
-        "name": "India",
-        "path": "/mbbs-in-india",
+        "name": "Ukraine",
+        "path": "/mbbs-in-ukraine",
         "subPaths": null
       },
       {
-        "name": "Russia",
-        "path": "/mbbs-in-russia",
-        "subPaths": null
-      },
-      {
-        "name": "Japan",
-        "path": "/mbbs-in-japan",
-        "subPaths": null
-      },
-      {
-        "name": "Cananda",
-        "path": "/mbbs-in-cananda",
+        "name": "Uzbekistan",
+        "path": "/mbbs-in-uzbekistan",
         "subPaths": null
       }
     ]
