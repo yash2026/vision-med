@@ -35,8 +35,8 @@
     brightness(92%) contrast(88%);
 }
 
-/* Change the color to #a97c25 on card hover */
+/* Change the color to #87631e on card hover */
 .group:hover .svg-color {
-  filter: invert(57%) sepia(60%) saturate(451%) hue-rotate(1deg) brightness(95%)
-    contrast(90%);
+  filter: invert(40%) sepia(40%) saturate(717%) hue-rotate(1deg) brightness(91%)
+    contrast(95%);
 }
