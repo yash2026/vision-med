@@ -17,7 +17,7 @@ function Choosecards({ description, digit, icon, title }: WhyDataType) {
               0{digit}
             </p>
           </div>
-          <p className="font-bold mb-2 mt-3 text-lg svg-color group-hover:svg-hover">
+          <p className="font-black mb-2 mt-3 text-lg svg-color group-hover:svg-hover">
             {title}
           </p>
           <p className="leading-7">{description}</p>
