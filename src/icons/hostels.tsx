@@ -22,8 +22,8 @@ export default function Hostels(props: ComponentPropsWithoutRef<"svg">) {
       <defs>
         <style>
           {`.cls-1, .cls-2 {
-            fill: none;
-            stroke: #020202;
+            fill: ${props.fill || "none"};
+            stroke: ${props.stroke || "#020202"};
             stroke-miterlimit: 10;
             stroke-width: 1.92px;
           }

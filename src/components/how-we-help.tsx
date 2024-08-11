@@ -22,7 +22,7 @@ function Howhelp() {
         <div className="flex flex-col gap-20">
           <div className="flex gap-2 items-start">
             <div className="w-[60px]">
-              <AdmSupport width={60} height={60} />
+              <AdmSupport width={60} height={60} fill="#2d9999" />
             </div>
             <div className="flex flex-col gap-4 leading-7">
               <p className="font-bold text-[25px] text-[#2f4688]">
@@ -37,7 +37,7 @@ function Howhelp() {
 
           <div className="flex gap-2">
             <div className="w-[60px]">
-              <VisaTravel width={60} height={60} />
+              <VisaTravel width={60} height={60} stroke="#2d9999" />
             </div>
 
             <div className="flex flex-col gap-4 leading-7">
@@ -62,7 +62,7 @@ function Howhelp() {
         <div className="flex flex-col gap-20">
           <div className="flex gap-2">
             <div className="w-[60px]">
-              <Coaching width={60} height={60} />
+              <Coaching width={60} height={60} fill="#2d9999" />
             </div>
             <div className="flex flex-col gap-4 leading-7">
               <p className="font-bold text-[25px] text-[#2f4688]">
@@ -77,7 +77,7 @@ function Howhelp() {
 
           <div className="flex gap-2">
             <div className="w-[60px]">
-              <Hostels width={60} height={60} />
+              <Hostels width={60} height={60} stroke="#2d9999" />
             </div>
             <div className="flex flex-col gap-4 leading-7">
               <p className="font-bold text-[25px] text-[#2f4688]">
