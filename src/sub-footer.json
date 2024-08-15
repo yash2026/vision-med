@@ -15,10 +15,6 @@
     {
       "name": "Contact Us",
       "path": "/contactus"
-    },
-    {
-      "name": "Blog",
-      "path": "/blog"
     }
   ],
   "Countries": [
@@ -27,20 +23,8 @@
       "path": "/uzbekistan"
     },
     {
-      "name": "Poland",
-      "path": "/poland"
-    },
-    {
       "name": "Ukraine",
       "path": "/ukraine"
-    },
-    {
-      "name": "Georgia",
-      "path": "/georgia"
-    },
-    {
-      "name": "Romania",
-      "path": "/romania"
     }
   ],
   "Universities": [
@@ -51,14 +35,6 @@
     {
       "name": "Bukovinian State Medical university",
       "path": "/bukovinian"
-    },
-    {
-      "name": "Top MBBS in Abroad Medical Universities Country Wise List",
-      "path": "/topmbbs"
-    },
-    {
-      "name": "University of Warmia and Mazury",
-      "path": "/warmia&mazury"
     }
   ],
   "Quick Contacts": [
@@ -73,7 +49,7 @@
       "path": ""
     },
     {
-      "name": "info@themdhouse.com",
+      "name": "visionmedicos333@gmail.com",
       "icon": "",
       "path": ""
     }

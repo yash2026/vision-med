@@ -2,7 +2,7 @@ import Enquiry from "@/components/enquiry";
 import Howhelp from "@/components/how-we-help";
 import Ourservices from "@/components/ourservices/our-services";
 import Section2card from "@/components/section-card/section2-card";
-import Section3card from "@/components/section-card/section3-card";
+// import Section3card from "@/components/section-card/section3-card";
 import Section4card from "@/components/section-card/section4-card";
 import WelcomeSection from "@/components/section-card/welcome-section";
 import Testimonials from "@/components/testimonial/testimonials";
@@ -13,7 +13,7 @@ export default function Home() {
     <div className="pt-[80px]">
       <WelcomeSection />
       <Section2card />
-      <Section3card />
+      {/* <Section3card /> */}
       <Section4card />
       <Ourservices />
       <Howhelp />
