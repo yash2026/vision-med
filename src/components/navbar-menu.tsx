@@ -1,4 +1,4 @@
-import navbarLinks from "@/navbar-links.json";
+import navbarLinks from "@/data/navbar-links.json";
 import { Dispatch, SetStateAction, useState } from "react";
 import TruthyRenderer from "./truthy-renderer";
 import Link from "next/link";

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import WidthWrapper from "./width-wrapper";
 import { Button } from "@nextui-org/react";
-import navbarLinks from "@/navbar-links.json";
+import navbarLinks from "@/data/navbar-links.json";
 import NavbarLink from "./navbar-link";
 import MenuIcon from "./menu-icon/menu-icon";
 import Image from "next/image";

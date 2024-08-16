@@ -1,4 +1,4 @@
-import subfooter from "@/sub-footer.json";
+import subfooter from "@/data/sub-footer.json";
 import Link from "next/link";
 import WidthWrapper from "./width-wrapper";
 

@@ -3,6 +3,7 @@ import WelcomeSection from "@/components/section-card/welcome-section";
 import WidthWrapper from "@/components/width-wrapper";
 import { ContentHeading } from "@/components/section-card/section-card";
 import * as AboutPageLayout from "@/components/common-layout";
+import SidebarLinkCard from "@/components/sidebar-link-card";
 
 function Page() {
   return (
@@ -52,8 +53,25 @@ function Page() {
               MBBS.
             </p>
           </AboutPageLayout.LeftSection>
-          <AboutPageLayout.RightSection>
+          <AboutPageLayout.RightSection className="flex flex-col gap-5">
             <BookAppointment />
+            <SidebarLinkCard
+              heading="Top Countries For Indian Students To Study MBBS"
+              links={[
+                {
+                  label: "Poland",
+                  link: "#",
+                },
+                {
+                  label: "Uzbekistan",
+                  link: "#",
+                },
+                {
+                  label: "Ukraine",
+                  link: "#",
+                },
+              ]}
+            />
           </AboutPageLayout.RightSection>
         </AboutPageLayout.Root>
       </div>

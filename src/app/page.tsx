@@ -10,7 +10,7 @@ import Whychooseus from "@/components/whyus/why-choose-us";
 
 export default function Home() {
   return (
-    <div className="pt-[80px]">
+    <div>
       <WelcomeSection />
       <Section2card />
       {/* <Section3card /> */}
