@@ -6,6 +6,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Subfooter from "@/components/sub-footer";
 import Widget from "@/components/widget";
+import AddressFooter from "@/components/address-footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
             <div className="pt-[80px]">{children}</div>
             <Widget />
             <Subfooter />
+            <AddressFooter />
             <Footer />
           </div>
         </Provider>
