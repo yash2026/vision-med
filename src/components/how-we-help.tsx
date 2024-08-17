@@ -12,10 +12,10 @@ function Howhelp() {
       <div className="flex flex-col items-center text-sm gap-2 leading-7">
         <h3 className="font-bold text-[25px]">HOW DO WE HELP?</h3>
         <p className="mb-20 text-center">
-          MBBS With MD House for Indian students promises unmatchable scope and
-          opportunities. At Rus Education, we aim to make the best out of your
-          stay and learning abroad with our exclusive services. Because we are
-          there not only for your admission but also for your graduation!
+          MBBS With The Vision Medicos for Indian students promises unmatchable
+          scope and opportunities. At Rus Education, we aim to make the best out
+          of your stay and learning abroad with our exclusive services. Because
+          we are there not only for your admission but also for your graduation!
         </p>
       </div>
       <div className="grid grid-cols-[1fr_1.5fr_1fr] text-sm">
