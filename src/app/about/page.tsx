@@ -59,10 +59,6 @@ function Page() {
               heading="Top Countries For Indian Students To Study MBBS"
               links={[
                 {
-                  label: "Poland",
-                  link: "#",
-                },
-                {
                   label: "Uzbekistan",
                   link: "#",
                 },
