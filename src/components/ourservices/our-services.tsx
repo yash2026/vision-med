@@ -1,13 +1,6 @@
 import React from "react";
 import WidthWrapper from "../width-wrapper";
 import Ourservicescards from "./ourservices-cards";
-import Counseling from "@/icons/counseling";
-import AdmSupport from "@/icons/admSupport";
-import University from "@/icons/university";
-import VisaIcon from "@/icons/visaicon";
-import TravelIcon from "@/icons/travelIcon";
-import AccomdationIcon from "@/icons/accomdationIcon";
-import Briefing from "@/icons/briefing";
 
 const sizeAttributes = {
   height: 40,
@@ -16,52 +9,52 @@ const sizeAttributes = {
 
 const services = [
   {
-    icon: <Counseling {...sizeAttributes} />,
+    icon: "/counseling.svg",
     title: "Free Career Counselling Upto PG",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
   {
-    icon: <AdmSupport {...sizeAttributes} />,
+    icon: "/guidelines.svg",
     title: "Admission Guidelines",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
   {
-    icon: <University {...sizeAttributes} />,
+    icon: "/university.svg",
     title: "University Selection",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
   {
-    icon: <AdmSupport {...sizeAttributes} />,
+    icon: "/documentation.svg",
     title: "Documentation",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
   {
-    icon: <VisaIcon {...sizeAttributes} />,
+    icon: "/visaIcon.svg",
     title: "Visa",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
   {
-    icon: <TravelIcon {...sizeAttributes} />,
+    icon: "/travelIcon.svg",
     title: "Travel",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
   {
-    icon: <AccomdationIcon {...sizeAttributes} />,
+    icon: "/accomodation.svg",
     title: "Accommodation",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
   {
-    icon: <Briefing {...sizeAttributes} />,
+    icon: "/briefing.svg",
     title: "Briefings",
-    paragraph:
-      "Bukovinian State Medical University (BSMU) is one of the largest",
+    // paragraph:
+    // "Bukovinian State Medical University (BSMU) is one of the largest",
   },
 ];
 

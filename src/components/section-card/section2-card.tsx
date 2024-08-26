@@ -8,10 +8,11 @@ function Section2card() {
       <Section2Layout.Root className="pt-12">
         <Section2Layout.FlexChildLayout>
           <Image
-            src="/section2-image.jpg"
+            src="/images/Samarkand-University.jpg"
             alt="Welcome Image"
             width="500"
             height="500"
+            className="rounded-lg"
           />
         </Section2Layout.FlexChildLayout>
         <Section2Layout.FlexChildLayout className="flex flex-col gap-4 text-sm  leading-10">

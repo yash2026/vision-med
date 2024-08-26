@@ -6,7 +6,7 @@ export function Root({
   ...props
 }: ComponentPropsWithoutRef<"div">) {
   return (
-    <div className={`flex ${className}`} {...props}>
+    <div className={`flex max-[800px]:flex-col ${className}`} {...props}>
       {children}
     </div>
   );
@@ -18,7 +18,10 @@ export function LeftSection({
   ...props
 }: ComponentPropsWithoutRef<"div">) {
   return (
-    <div className={`flex-[0.7] ${className}`} {...props}>
+    <div
+      className={`flex-[0.7] max-[1000px]:flex-[0.6] ${className}`}
+      {...props}
+    >
       {children}
     </div>
   );
@@ -30,7 +33,10 @@ export function RightSection({
   ...props
 }: ComponentPropsWithoutRef<"div">) {
   return (
-    <div className={`flex-[0.3] ${className}`} {...props}>
+    <div
+      className={`flex-[0.3] max-[1000px]:flex-[0.4] ${className}`}
+      {...props}
+    >
       {children}
     </div>
   );

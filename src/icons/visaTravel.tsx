@@ -2,11 +2,18 @@ import React, { ComponentPropsWithoutRef } from "react";
 
 export default function VisaTravel(props: ComponentPropsWithoutRef<"svg">) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      {...props}
+      stroke={props.stroke || "currentColor"}
+    >
       <defs>
         <style>
           {`
-        .a{fill:none; stroke:#000; stroke-miterlimit:10;}
+        .a{fill:none; stroke:${
+          props.stroke || "currentColor"
+        }; stroke-miterlimit:10;}
         `}
         </style>
       </defs>

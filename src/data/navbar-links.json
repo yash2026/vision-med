@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Home",
+    "path": "/",
+    "subPaths": null
+  },
+  {
+    "name": "About",
+    "path": "/about",
+    "subPaths": null
+  },
+  {
+    "name": "Universities",
+    "path": null,
+    "subPaths": [
+      {
+        "name": "Samarkand State Medical University",
+        "path": "samarkand-state-medical-university",
+        "subPaths": null
+      },
+      {
+        "name": "Bukovinian State Medical University",
+        "path": "bukovinian-state-medical-university",
+        "subPaths": null
+      }
+    ]
+  },
+  {
+    "name": "Countries",
+    "path": null,
+    "subPaths": [
+      {
+        "name": "Ukraine",
+        "path": "/mbbs-in-ukraine",
+        "subPaths": null
+      },
+      {
+        "name": "Uzbekistan",
+        "path": "/mbbs-in-uzbekistan",
+        "subPaths": null
+      }
+    ]
+  },
+  {
+    "name": "Gallery",
+    "path": "/gallery",
+    "subPaths": null
+  },
+  {
+    "name": "Contact us",
+    "path": "/contact-us",
+    "subPaths": null
+  },
+  {
+    "name": "Prospectus",
+    "path": null,
+    "subPaths": [
+      {
+        "name": "Samarkand State Medical University Prospectus",
+        "path": "/prospectus/SSMU Prospectus 2024.pdf",
+        "subPaths": null
+      },
+      {
+        "name": "Bukovinian State Medical University Prospectus",
+        "path": "/BSMU Vision-med Prospectus 2024",
+        "subPaths": null
+      }
+    ]
+  }
+]

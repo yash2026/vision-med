@@ -1,14 +1,14 @@
 import Link from "next/link";
 import WidthWrapper from "./width-wrapper";
 import { Button } from "@nextui-org/react";
-import navbarLinks from "@/navbar-links.json";
+import navbarLinks from "@/data/navbar-links.json";
 import NavbarLink from "./navbar-link";
 import MenuIcon from "./menu-icon/menu-icon";
 import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-10 border-b-1 h-[70px]  px-10 bg-white">
+    <header className="fixed top-0 left-0 w-full z-10 border-b-1 h-[70px]  px-10 max-[1250px]:px-5 bg-white">
       <WidthWrapper className="flex justify-between items-center h-full">
         <div className="flex-1 max-[800px]:py-2">
           <Link href={"/"}>

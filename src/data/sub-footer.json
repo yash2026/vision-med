@@ -1,0 +1,40 @@
+{
+  "Quicklink": [
+    {
+      "name": "Home",
+      "path": "/home"
+    },
+    {
+      "name": "About Us",
+      "path": "/aboutus"
+    },
+    {
+      "name": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "name": "Contact Us",
+      "path": "/contactus"
+    }
+  ],
+  "Countries": [
+    {
+      "name": "Uzbekistan",
+      "path": "/uzbekistan"
+    },
+    {
+      "name": "Ukraine",
+      "path": "/ukraine"
+    }
+  ],
+  "Universities": [
+    {
+      "name": "Samarkand State Medical university",
+      "path": "/samarkand"
+    },
+    {
+      "name": "Bukovinian State Medical university",
+      "path": "/bukovinian"
+    }
+  ]
+}

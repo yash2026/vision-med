@@ -6,14 +6,6 @@ function Section4card() {
   return (
     <WidthWrapper className="max-[1250px]:px-10 max-[600px]:px-4">
       <Section4Layout.Root className="pt-12">
-        <Section4Layout.FlexChildLayout>
-          <Image
-            src="/section4-image.png"
-            alt="Welcome Image"
-            width="500"
-            height="500"
-          />
-        </Section4Layout.FlexChildLayout>
         <Section4Layout.FlexChildLayout className="flex flex-col gap-4 leading-9 text-sm">
           <Section4Layout.ContentHeading className="text-[25px]">
             Bukovinian State Medical University, Ukraine
@@ -35,6 +27,15 @@ function Section4card() {
             specialties: General Medicine, Dentistry, Pharmacy, Nursing,
             Pediatrics, Medical Psychology, Clinical Pharmacy.
           </p>
+        </Section4Layout.FlexChildLayout>
+        <Section4Layout.FlexChildLayout>
+          <Image
+            src="/images/Bukovinian-Ukraine.jpg"
+            alt="Welcome Image"
+            width="500"
+            height="500"
+            className="rounded-lg"
+          />
         </Section4Layout.FlexChildLayout>
       </Section4Layout.Root>
     </WidthWrapper>

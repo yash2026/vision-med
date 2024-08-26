@@ -20,16 +20,16 @@ export default function WelcomeSection() {
       <WelcomeSectionLayout.Root>
         <WelcomeSectionLayout.FlexChildLayout className="flex flex-col gap-8 text-sm">
           <WelcomeSectionLayout.ContentHeading className="text-[25px]">
-            Welcome To MBBS With MD House
+            Welcome To MBBS With Vision Medicos
           </WelcomeSectionLayout.ContentHeading>
           <p className="leading-7">
-            The MD House has guided more than 3500 MBBS students from India 1200
-            MBBS students completed degrees and practicing in India & Abroad,
-            The Md House helps students in saving valuable money, We always try
-            to control overall expenses.The Md House works with the lifelong
-            vision for student’s career growth. The MD House has been identified
-            as the most trusted career partner by thousands of satisfied
-            students and parents.
+            The Vision Medicos has guided more than 1000 MBBS students from
+            India 200 MBBS students completed degrees and practicing in India &
+            Abroad, The Vision Medicos helps students in saving valuable money,
+            We always try to control overall expenses.The Vision Medicos works
+            with the lifelong vision for student’s career growth. The Vision
+            Medicos has been identified as the most trusted career partner by
+            thousands of satisfied students and parents.
           </p>
           <AboutMD />
           <div className="flex gap-10 justify-around pt-4">
@@ -55,10 +55,11 @@ export default function WelcomeSection() {
         </WelcomeSectionLayout.FlexChildLayout>
         <WelcomeSectionLayout.FlexChildLayout>
           <Image
-            src="/welcome-section-image.jpg"
+            src="/images/welcome_page_doctor.jpg"
             alt="Welcome Image"
             width="500"
             height="500"
+            className="rounded-lg"
           />
         </WelcomeSectionLayout.FlexChildLayout>
       </WelcomeSectionLayout.Root>
