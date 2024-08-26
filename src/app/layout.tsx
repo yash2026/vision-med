@@ -26,7 +26,7 @@ export default function RootLayout({
         <Provider>
           <div className="min-h-screen flex flex-col">
             <Navbar />
-            <div className="pt-[80px]">{children}</div>
+            <div className="pt-[70px]">{children}</div>
             <Widget />
             <Subfooter />
             <AddressFooter />

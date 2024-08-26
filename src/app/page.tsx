@@ -1,3 +1,4 @@
+import Carousel from "@/components/carosuel/Carousel";
 import Enquiry from "@/components/enquiry";
 import Howhelp from "@/components/how-we-help";
 import Ourservices from "@/components/ourservices/our-services";
@@ -10,7 +11,8 @@ import Whychooseus from "@/components/whyus/why-choose-us";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col gap-20">
+      <Carousel />
       <WelcomeSection />
       <Section2card />
       {/* <Section3card /> */}
