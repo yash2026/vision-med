@@ -6,7 +6,6 @@ export default function AddressFooter() {
     <WidthWrapper className="flex justify-between max-[500px]:flex-col gap-1 py-3">
       <div>
         <div>
-          Address:{" "}
           <span className="text-sm font-semibold text-black/50">
             SCO- 76, 1st Floor, Tribune road, Sector-20C, Chandigarh.(U.T)
           </span>
