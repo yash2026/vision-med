@@ -18,8 +18,17 @@ function Howhelp() {
           we are there not only for your admission but also for your graduation!
         </p>
       </div>
-      <div className="grid grid-cols-[1fr_1.5fr_1fr] text-sm">
-        <div className="flex flex-col gap-20">
+      <div className="hidden max-[800px]:block mb-10">
+        <Image
+          src="/doctorduet.webp"
+          width={500}
+          height={400}
+          className="w-full"
+          alt="doctor image"
+        />
+      </div>
+      <div className="grid grid-cols-[1fr_1.5fr_1fr] max-[800px]:grid-cols-2 text-sm max-[550px]:grid-cols-1 max-[550px]:gap-4">
+        <div className="flex flex-col gap-20 max-[550px]:gap-4">
           <div className="flex gap-2 items-start">
             <div className="w-[60px]">
               <AdmSupport width={60} height={60} fill="#2d9999" />
@@ -51,7 +60,7 @@ function Howhelp() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="max-[800px]:hidden">
           <Image
             src="/doctorduet.webp"
             width={500}
@@ -59,7 +68,7 @@ function Howhelp() {
             alt="doctor image"
           />
         </div>
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col gap-20 max-[550px]:gap-4">
           <div className="flex gap-2">
             <div className="w-[60px]">
               <Coaching width={60} height={60} fill="#2d9999" />

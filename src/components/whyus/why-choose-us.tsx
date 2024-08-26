@@ -45,7 +45,7 @@ function Whychooseus() {
       <WidthWrapper>
         <div className="flex flex-col gap-3 mb-8">
           <p className="text-white">WHY CHOOSE US</p>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 max-[600px]:grid-cols-1 max-[600px]:gap-3">
             <p className="text-white font-bold text-[30px]">
               The favourable reasons to choose us.
             </p>
@@ -57,7 +57,7 @@ function Whychooseus() {
             </p>
           </div>
         </div>
-        <div className="flex gap-4 ">
+        <div className="grid grid-cols-4 max-[950px]:grid-cols-2 gap-4 max-[550px]:grid-cols-1">
           {chooseusData.map((item, index) => (
             <Choosecards key={index} {...item} />
           ))}

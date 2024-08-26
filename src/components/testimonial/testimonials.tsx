@@ -38,7 +38,7 @@ function Testimonials() {
           <p className="font-bold text-[#2f4688] text-[25px]">
             Student Testimonials
           </p>
-          <div className="flex gap-3">
+          <div className="grid grid-cols-3 max-[800px]:grid-cols-2 max-[550px]:grid-cols-1 gap-3">
             {testimonialData.map((item, index) => (
               <Testimonialcards key={index} {...item} />
             ))}

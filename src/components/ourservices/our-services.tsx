@@ -69,7 +69,7 @@ function Ourservices() {
             accomodation throughout your course duration.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-4 max-[1000px]:grid-cols-3 max-[750px]:grid-cols-2 max-[500px]:grid-cols-1 gap-5">
           {services.map((item, index) => (
             <Ourservicescards key={index} {...item} />
           ))}
