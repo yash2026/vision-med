@@ -3,7 +3,7 @@ import WidthWrapper from "./width-wrapper";
 
 export default function Footer() {
   return (
-    <footer className="border-t-1 mt-auto max-[1200px]:px-10">
+    <footer className="border-t-1 mt-auto max-[1200px]:px-10 max-[400px]:px-0">
       <WidthWrapper className=" flex flex-row justify-between max-[580px]:flex-col items-center py-5 gap-2">
         <div className="flex items-center gap-4 text-sm font-medium">
           <Link href={"/terms-and-conditions"} className="hover:text-blue-500">
@@ -13,7 +13,7 @@ export default function Footer() {
             Privacy Policy
           </Link>
         </div>
-        <p className="text-black/60">
+        <p className="text-black/60 max-[450px]:text-sm">
           © {new Date().getFullYear()} Vision MED All Rights Reserved.
         </p>
       </WidthWrapper>
