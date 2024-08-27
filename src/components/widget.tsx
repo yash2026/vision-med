@@ -1,14 +1,19 @@
+"use client";
 import Callicon from "@/icons/callicon";
 import Facebookicon from "@/icons/facebookicon";
 import Linkedinicon from "@/icons/linkedinicon";
 import Twittericon from "@/icons/twittericon";
-import { Button } from "@nextui-org/react";
+import { Button, useDisclosure } from "@nextui-org/react";
 import React, { ReactNode } from "react";
+import QuickEnquiryModal from "./quick-enquiry-modal";
 
 function Widget() {
+  const { isOpen, onOpenChange, onOpen } = useDisclosure();
   return (
     <>
+      <QuickEnquiryModal isOpen={isOpen} onOpenChange={onOpenChange} />
       <Button
+        onPress={onOpen}
         variant="solid"
         color="warning"
         className="fixed -right-[40px] bottom-[45%] -rotate-90 text-black/50 font-bold"
@@ -35,7 +40,7 @@ function Widget() {
   );
 }
 
-function SameStyleButton({ children }: { children: ReactNode }) {
+function SameStyleButton({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <Button
       variant="solid"
