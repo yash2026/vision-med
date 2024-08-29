@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Are there any hidden charges after the payment of fees?",
+    "content": {
+      "title": "No additional charges are necessary to pay after the fees of tuition, examination, and admission process is paid.",
+      "points": []
+    }
+  },
+  {
+    "id": 2,
+    "title": "How does The Vision Medicos help in saving money?",
+    "content": {
+      "title": "",
+      "points": [
+        "The Vision Medicos provides affordable options for MBBS students.",
+        "We negotiate with partner universities to get the best deals for our students.",
+        "Our counselors provide guidance on scholarships and financial aid."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "What kind of support does The Vision Medicos provide to students and parents?",
+    "content": {
+      "title": "The Vision Medicos offers a robust support system for both students and parents, ensuring regular updates and communication throughout the admission process.",
+      "points": [
+        "Post-admission services including visa assistance and placement support.",
+        "Comprehensive guidance throughout the MBBS journey."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Why should I trust The Vision Medicos?",
+    "content": {
+      "title": "The Vision Medicos is a trusted partner for over 1000 students who have successfully completed their MBBS degrees with our guidance.",
+      "points": [
+        "We have a team of seasoned and experienced career counselors.",
+        "No hidden costs or surprises – we maintain complete transparency."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "What is the experience of The Vision Medicos in the MBBS field?",
+    "content": {
+      "title": "The Vision Medicos has extensive experience in guiding students through the MBBS process.",
+      "points": [
+        "Over 1000 students have pursued MBBS abroad through our guidance.",
+        "More than 200 students have completed their degrees and are now practicing in India and abroad.",
+        "We were among the first consultants to send students overseas for MBBS."
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "What services does The Vision Medicos provide after landing abroad?",
+    "content": {
+      "title": "",
+      "points": [
+        "Assistance with accommodation and settling in a new country.",
+        "Guidance on local laws and regulations, including visa-related support.",
+        "Support with finding internships, placements, and part-time work opportunities."
+      ]
+    }
+  }
+]

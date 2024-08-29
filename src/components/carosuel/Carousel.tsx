@@ -24,8 +24,8 @@ export default function Carousel() {
         {imagesCarousel?.map((img, index) => (
           <div key={index} className="flex-[0_0_100%]">
             <Image
-              width={500}
-              height={500}
+              // width={500}
+              // height={500}
               className="w-full h-full"
               src={img}
               alt="carousel image"
