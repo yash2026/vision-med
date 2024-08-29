@@ -1,21 +1,25 @@
 import React from "react";
 import WidthWrapper from "./width-wrapper";
+import OurReach from "@/icons/ourreach";
+import SuccessStories from "@/icons/successstories";
+import GraduateCap from "@/icons/graduatecap";
+import UniversityIcon from "@/icons/university";
 
 const heroCardData = [
   {
-    icon: <p>icon</p>,
+    icon: <GraduateCap width={61} />,
     name: "MBBS Abroad",
   },
   {
-    icon: <p>icon</p>,
+    icon: <UniversityIcon width={50} />,
     name: "Universities",
   },
   {
-    icon: <p>icon</p>,
+    icon: <OurReach width={45} />,
     name: "Our Reach",
   },
   {
-    icon: <p>icon</p>,
+    icon: <SuccessStories width={45} />,
     name: "Success Stories",
   },
 ];
