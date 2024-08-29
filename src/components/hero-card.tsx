@@ -22,7 +22,7 @@ const heroCardData = [
     icon: <SuccessStories width={45} />,
     name: "Success Stories",
   },
-];
+] as const;
 
 export default function HeroCard() {
   return (
