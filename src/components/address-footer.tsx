@@ -7,7 +7,8 @@ export default function AddressFooter() {
       <div>
         <div>
           <span className="text-sm font-semibold text-black/50">
-            SCO- 76, 1st Floor, Tribune road, Sector-20C, Chandigarh.(U.T)
+            Office No. 26, Ground Floor, Pacific City Centre, Near Jat Bhawan,
+            Rohtak (Hr.)
           </span>
         </div>
         <Link
@@ -18,11 +19,11 @@ export default function AddressFooter() {
         </Link>
       </div>
       <div className="flex flex-col text-sm font-semibold whitespace-nowrap text-black/50">
-        <Link className="whitespace-nowrap" href={"tel:+91-172-4695222"}>
-          +91-172-4695222
+        <Link className="whitespace-nowrap" href={"tel:+91-70117-62602"}>
+          +91-70117-62602
         </Link>
-        <Link className="whitespace-nowrap" href={"tel:+91-92163-23222"}>
-          +91-92163-23222
+        <Link className="whitespace-nowrap" href={"tel:+91-95881-17017"}>
+          +91-95881-17017
         </Link>
       </div>
     </WidthWrapper>
