@@ -1,28 +1,28 @@
 {
   "samarkand": [
     {
-      "number": "1",
+      "id": "1",
       "question": "What are the benefits of studying in Samarkand State Medical University?",
       "answer": "The study programs of the Samarkand State Medical University emphasize practical training. It helps the students to comprehend the concepts comprehensively. The campus has got top-notch facilities. Moreover, the institution has a scientific method library with more than 200,000 publications. This institution has partnerships and collaborations with many international organizations from various countries including the USA, Germany, Spain, and Holland. The other countries are Ukraine, Russia, Japan, South Korea, Kyrgyzstan, and Kazakhstan. There are faculty members in the University who have gone to other research centers and universities abroad to exchange their experience and undergo scientific study courses. There are teachers and professors in this University who are masters in their departments.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "2",
+      "id": "2",
       "question": "What is the admission process?",
       "answer": "The Vision Medicos happens to be the official admission representative and partner of the Samarkand State Medical University. Indian students can get admission to the Samarkand State Medical University according to the most recent rules of the Medical Council of India. The authorities will select candidates with strong potential and proven academic excellence to become a physician. The eligibility criteria happen to be 10 + 2 in chemistry, physics, biology, and English with a minimum aggregate of 50% for the general category when it comes to practical and 40% for the reserved category. It is imperative for the students to have NEET qualifying marks during the present year of admission. The required qualifying marks are 134 for the general category and 107 for ST/SC/OBC categories.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "3",
+      "id": "3",
       "question": "What is the condition of the hostels at the Samarkand State Medical University?",
       "answer": "The Samarkand State Medical University is known to provide separate hostels for Indian girls. There are seven hostels in total. These hostels offer appropriate conditions for studying together with top-notch living conditions. These rooms have other required items such as pillows, blankets, and so on. These are furnished as well. There are rooms in all the hostels furnished with chairs and desks that will help the students to study properly. The hostels also include a canteen, laundry, library, fitness center, and billiard room. One can use the canteen in the Samarkand State Medical University for celebrating national holidays plus religious holidays of the different countries that belong to the students.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "4",
+      "id": "4",
       "question": "What are the Samarkand State Medical University fees?",
       "answer": "This University provides top-quality medical education at an affordable cost for Indian students. The fees are not only inexpensive, but the living standard is also cheap. The overall fees have been divided for the MBBS course at the Samarkand State Medical University in the following manner:  One can pay the tuition fee to the University account directly. One can also pay the fees in 2 installments of six months semester-wise. This fee structure is applicable for MBBS or General Medicine courses.",
       "points": [
@@ -32,7 +32,7 @@
       "answerAddon": "One can pay the tuition fee to the University account directly. One can also pay the fees in 2 installments of six months semester-wise. This fee structure is applicable for MBBS or General Medicine courses."
     },
     {
-      "number": "5",
+      "id": "5",
       "question": "Why is the Vision Medicos so popular among the students?",
       "answer": "In excess of 1000 MBBS Indian students have received guidance from the Vision Medicos over the years. This institution allows the students to save money by controlling overall expenses. The following are the main reasons why the Samarkand State Medical University stands above the rest:",
       "points": [
@@ -49,41 +49,41 @@
   ],
   "bukvonian": [
     {
-      "number": "1",
+      "id": "1",
       "question": "What courses does Bukovinian State Medical University offer?",
       "answer": "1) Masters in Medicine 2) Masters in Dentistry 3) Bachelor’s degree"
     },
     {
-      "number": "2",
+      "id": "2",
       "question": "What is the cost of living in Ukraine?",
       "answer": "It is about Rs.60000 with all facilities."
     },
     {
-      "number": "3",
+      "id": "3",
       "question": "Is there a sports or cultural facility at Bukovinian State Medical University?",
       "answer": "1) Masters in Medicine 2) Masters in Dentistry 3) Bachelor’s degree"
     },
     {
-      "number": "4",
+      "id": "4",
       "question": "Are there any donation charges for admission at Bukovinian State Medical University?",
       "answer": "No, there are no extra charges for admission to Bukovinian State Medical University."
     },
     {
-      "number": "5",
+      "id": "5",
       "question": "Is NEET required for admission at Bukovinian State Medical University?",
       "answer": "Yes, a NEET scorecard is required for admission."
     }
   ],
   "bukvonian-info": [
     {
-      "number": "1",
+      "id": "1",
       "question": "How is the accommodation arrangement and what are the charges?",
       "answer": "The Bukovinian State Medical University Hostels are available for accommodation and it is included in the fee package. Students can stay in a University hostel. There are rooms with two or three beds, a common kitchen, and a common bathroom. Each room comes with tables, beds, and cupboards. Hostels are on the University campus. There is proper facility in each room of the hostel for self-studying as they are equipped with chairs, desks, and study tables. Several quarters are there that provide several amenities, such as cafeteria, laundry service, sports complex, gyms, and libraries. The hostel fee is approximately 500 USD per year.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "2",
+      "id": "2",
       "question": "Can we pay the tuition fee in installments?",
       "answer": "The price of studying MBBS in Bukovinian State Medical University Ukraine is quite less compared with private medical colleges in other countries. The total cost of MBBS education for six years in Ukraine is about 16.25 Lacs. The fee split up for the MBBS course in Ukraine is as follows.",
       "points": [
@@ -94,42 +94,42 @@
       "answerAddon": "You can directly pay tuition fees at the university account. Moreover, the payment can be made in two instalments, semester wise. There is no hidden fee or donation incurred for MBBS admission in any Ukrainian medical university."
     },
     {
-      "number": "3",
+      "id": "3",
       "question": "What are the charges for pursuing BDS/Dentistry?",
       "answer": "The fee for pursuing BDS or Dentistry in Bukovinian State Medical University Ukraine is quite economical. The course is for 5 years. The tuition fee is 4300 USD per year. The hostel fee is 500 USD per year. So, the total amount is 4800 USD per year. You can pay tuition fees at the university account directly. Moreover, the payment can be made in two installments of 6 months, semester wise. There is no hidden fee or donation incurred for BDS or Dentistry admission in any Ukrainian medical university.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "4",
+      "id": "4",
       "question": "What is the fee for admission to the nursing course?",
       "answer": "The fee for pursuing the nursing course in Bukovinian State Medical University Ukraine is quite cost-effective. The course is for 3 years. The tuition fee is 2000 USD per year. The hostel fee is 2500 USD per year. Thus, the total amount is 2800 USD per year. You can pay tuition fees at the university account directly. In addition, the payment can be made in two installments of 6 months, semester wise. There is no hidden fee or donation charge incurred for admission to the Nursing course in any Ukrainian medical university.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "5",
+      "id": "5",
       "question": "What is the Fee for Pursuing MBBS / GENERAL MEDICINE / MD PHYSICIAN Course?",
       "answer": "The fee for pursuing the MBBS / GENERAL MEDICINE / MD PHYSICIAN course in Bukovinian State Medical University Ukraine is quite lucrative. The course is for 6 years. The tuition fee is 3900 USD per year. The hostel fee is 500 USD per year. Thus, the total amount is 4400 USD per year. You can pay tuition fees at the university account directly. In addition, the payment can be made in two installments of 6 months, semester wise. There is no hidden fee or donation charge incurred for admission to the MBBS / GENERAL MEDICINE / MD PHYSICIAN course in any Ukrainian medical university.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "6",
+      "id": "6",
       "question": "What are the eligibility criteria for admission to the MBBS universities in Ukraine?",
       "answer": "No special examination is required for admission to the top medical universities in Ukraine for the MBBS courses. The Bukovinian State Medical University and other major government medical universities of Ukraine take admission based on the higher secondary marks (min 50% aggregate for the General category and 40% aggregate for the OBC/SC/ST) having Physics, Chemistry and Biology as compulsory subjects. The student must have qualified for the NEET examinations (as specified by the Medical Council of India). Examinations like IELTS, TOFEL, etc. are not required. The candidate must be at least 17 in the year of admission.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "7",
+      "id": "7",
       "question": "What are the documents required for admission?",
       "answer": "The candidate must have an application form consisting of the candidate’s name, nationality, education, birth date, age and other details that must be filled online on the university’s website. Original and photocopy of the class 12th mark-sheet and admit card is needed which should be self-attested. The candidate must carry a copy of the passport and 6 photographs of the dimensions 3 x 4 cm. In the case of the reserved candidates, they must also carry their caste certificates (SC/ST/OBC). The NEET result card is also required to verify the eligibility.",
       "points": [],
       "answerAddon": ""
     },
     {
-      "number": "8",
+      "id": "8",
       "question": "What are the different courses offered by the medical universities of Ukraine?",
       "answer": "There are many medical courses available in the top medical universities of Ukraine for undergraduate students from which the students can choose according to their field of interest. The top government medical universities of Ukraine such as the Bukovinian State Medical University offers the following medical courses for undergraduates.",
       "points": [
@@ -142,7 +142,7 @@
       "answerAddon": ""
     },
     {
-      "number": "9",
+      "id": "9",
       "question": "What are the top medical universities in Ukraine?",
       "answer": "Ukraine is home to several top medical universities that are very affordable and offer degrees that are recognized all over the world. These universities are recognized by MCI as well as various global bodies such as WHO, IMED, UNESCO Given below is the list of the top medical universities in Ukraine.",
       "points": [
@@ -160,7 +160,7 @@
       "answerAddon": ""
     },
     {
-      "number": "10",
+      "id": "10",
       "question": "What does Vision Medicos offer?",
       "answer": "The Vision Medicos is one of the most trusted career partners that offer excellent guidance to students who want to pursue a degree in the medical field from universities abroad. Vision Medicos is the most trusted student partner and guide. They provide an arrangement of admission, processing of the application, visa guidance, travel assistance and quality counselling free of cost.",
       "points": [],
