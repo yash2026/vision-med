@@ -7,19 +7,19 @@ import UniversityIcon from "@/icons/university";
 
 const heroCardData = [
   {
-    icon: <GraduateCap width={61} />,
+    icon: <GraduateCap fill="#a97c25" width={61} />,
     name: "MBBS Abroad",
   },
   {
-    icon: <UniversityIcon width={50} />,
+    icon: <UniversityIcon fill="#a97c25" width={50} />,
     name: "Universities",
   },
   {
-    icon: <OurReach width={45} />,
+    icon: <OurReach fill="#a97c25" width={45} />,
     name: "Our Reach",
   },
   {
-    icon: <SuccessStories width={45} />,
+    icon: <SuccessStories fill="#a97c25" width={45} />,
     name: "Success Stories",
   },
 ] as const;
@@ -30,7 +30,7 @@ export default function HeroCard() {
       <div className="grid grid-cols-4 shadow-lg border rounded-md max-[750px]:grid-cols-2 max-[400px]:grid-cols-1">
         {heroCardData.map((item) => (
           <div
-            className="flex flex-col gap-2 items-center p-3 border-r border-b"
+            className="flex flex-col gap-2 items-center p-3 border-r border-b hover:bg-black/5"
             key={item?.name}
           >
             {item?.icon}
