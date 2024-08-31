@@ -31,7 +31,9 @@ export default function WelcomeSection() {
             Medicos has been identified as the most trusted career partner by
             thousands of satisfied students and parents.
           </p>
-          <AboutMD />
+          <div className="grid grid-cols-2 gap-3">
+            <TickGernator data={data} />
+          </div>
           <div className="flex gap-10 justify-around pt-4">
             <Image
               src="/30-Years-image.webp"
@@ -67,17 +69,19 @@ export default function WelcomeSection() {
   );
 }
 
-function AboutMD() {
+export function TickGernator({ data }: Readonly<{ data: string[] }>) {
   return (
     <>
-      <div className="grid grid-cols-2 gap-3">
-        {data.map((item, index) => (
-          <div key={index} className="flex gap-1">
+      {data.map((item) => (
+        <div key={item} className="flex items-start gap-1">
+          <div className="w-[20px] translate-y-[2px]">
             <TickIcon />
-            <p>{item}</p>
           </div>
-        ))}
-      </div>
+          <WelcomeSectionLayout.Paragraph>
+            {item}
+          </WelcomeSectionLayout.Paragraph>
+        </div>
+      ))}
     </>
   );
 }

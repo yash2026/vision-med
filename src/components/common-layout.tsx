@@ -6,7 +6,10 @@ export function Root({
   ...props
 }: ComponentPropsWithoutRef<"div">) {
   return (
-    <div className={`flex max-[800px]:flex-col ${className}`} {...props}>
+    <div
+      className={`flex gap-5 max-[800px]:flex-col max-[800px]:gap-10 ${className}`}
+      {...props}
+    >
       {children}
     </div>
   );

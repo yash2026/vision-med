@@ -22,5 +22,7 @@ function ContentHeading({
 }: ComponentPropsWithoutRef<"h3">) {
   return <h3 className={`font-bold text-[#2f4688] ${className}`} {...props} />;
 }
-
-export { Root, FlexChildLayout, ContentHeading };
+function Paragraph({ className, ...props }: ComponentPropsWithoutRef<"p">) {
+  return <p className={`leading-7 text-sm ${className}`} {...props} />;
+}
+export { Root, FlexChildLayout, ContentHeading, Paragraph };

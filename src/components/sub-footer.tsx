@@ -5,7 +5,7 @@ import WidthWrapper from "./width-wrapper";
 function Subfooter() {
   const subfooterKeys = Object.keys(subfooter);
   return (
-    <WidthWrapper className="mt-10 max-[1250px]:px-10 max-[600px]:px-4">
+    <WidthWrapper className="mt-20 max-[1250px]:px-10 max-[600px]:px-4 border-t">
       <div className="grid grid-cols-4 py-8 max-[1250px]:gap-8 max-[800px]:grid-cols-3 max-[638px]:grid-cols-2 max-[638px]:text-xs max-[600px]:gap-4">
         {subfooterKeys.map((footerKey, index) => (
           <div key={index} className="flex flex-col gap-3">

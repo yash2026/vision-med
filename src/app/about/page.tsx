@@ -4,6 +4,8 @@ import WidthWrapper from "@/components/width-wrapper";
 import { ContentHeading } from "@/components/section-card/section-card";
 import * as AboutPageLayout from "@/components/common-layout";
 import SidebarLinkCard from "@/components/sidebar-link-card";
+import FaqBuilder from "@/components/faq-builder";
+import FaqData from "@/data/faqsdata.json";
 
 function Page() {
   return (
@@ -52,6 +54,7 @@ function Page() {
               students from all over India to foreign destination for doing
               MBBS.
             </p>
+            <FaqBuilder faqData={FaqData} heading="University FAQs" />
           </AboutPageLayout.LeftSection>
           <AboutPageLayout.RightSection className="flex flex-col gap-5">
             <BookAppointment />
@@ -60,11 +63,11 @@ function Page() {
               links={[
                 {
                   label: "Uzbekistan",
-                  link: "#",
+                  link: "/mbbs-in-uzbekistan",
                 },
                 {
                   label: "Ukraine",
-                  link: "#",
+                  link: "/mbbs-in-ukraine",
                 },
               ]}
             />

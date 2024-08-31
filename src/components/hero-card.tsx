@@ -4,6 +4,7 @@ import OurReach from "@/icons/ourreach";
 import SuccessStories from "@/icons/successstories";
 import GraduateCap from "@/icons/graduatecap";
 import UniversityIcon from "@/icons/university";
+import TruthyRenderer from "./truthy-renderer";
 
 const heroCardData = [
   {
@@ -24,17 +25,24 @@ const heroCardData = [
   },
 ] as const;
 
-export default function HeroCard() {
+export default function HeroCard({ firstName }: { firstName?: string }) {
   return (
     <WidthWrapper>
       <div className="grid grid-cols-4 shadow-lg border rounded-md max-[750px]:grid-cols-2 max-[400px]:grid-cols-1">
-        {heroCardData.map((item) => (
+        {heroCardData.map((item, index) => (
           <div
             className="flex flex-col gap-2 items-center p-3 border-r border-b hover:bg-black/5"
             key={item?.name}
           >
             {item?.icon}
-            <h3 className="text-lg font-semibold">{item?.name}</h3>
+            <TruthyRenderer value={index === 0}>
+              <h3 className="text-lg font-semibold">
+                {firstName || item?.name}
+              </h3>
+            </TruthyRenderer>
+            <TruthyRenderer value={index !== 0}>
+              <h3 className="text-lg font-semibold">{item?.name}</h3>
+            </TruthyRenderer>
           </div>
         ))}
       </div>
