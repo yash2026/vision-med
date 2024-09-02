@@ -2,6 +2,7 @@ import { BreadcrumbsBuilder, PageHeading } from "@/components/common";
 import WidthWrapper from "@/components/width-wrapper";
 import * as UkrainLayout from "@/components/section-card/section-card";
 import Image from "next/image";
+import MbbsUkrainPage from "@/components/mbbs-ukrain-page";
 
 const breadsData = [
   {
@@ -50,6 +51,7 @@ export default function Page() {
           />
         </UkrainLayout.FlexChildLayout>
       </UkrainLayout.Root>
+      <MbbsUkrainPage />
     </WidthWrapper>
   );
 }

@@ -24,7 +24,7 @@ export default function FaqBuilder(props: Readonly<FaqBuilderProps>) {
   return (
     <div className="flex flex-col gap-4 mt-6">
       <ContentHeading className="text-2xl">{heading}</ContentHeading>
-      <Accordion variant="splitted">
+      <Accordion variant="splitted" className="px-0">
         {faqData?.map((faq) => (
           <AccordionItem
             key={faq?.id}

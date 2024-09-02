@@ -2,6 +2,7 @@ import Image from "next/image";
 import WidthWrapper from "../width-wrapper";
 import * as WelcomeSectionLayout from "./section-card";
 import TickIcon from "@/icons/tickIcon";
+import { ReactNode } from "react";
 
 const data = [
   "Excellent Experience of 20 years",
@@ -69,11 +70,13 @@ export default function WelcomeSection() {
   );
 }
 
-export function TickGernator({ data }: Readonly<{ data: string[] }>) {
+export function TickGernator({
+  data,
+}: Readonly<{ data: (string | ReactNode)[] }>) {
   return (
     <>
-      {data.map((item) => (
-        <div key={item} className="flex items-start gap-1">
+      {data.map((item, index) => (
+        <div key={index} className="flex items-start gap-1">
           <div className="w-[20px] translate-y-[2px]">
             <TickIcon />
           </div>
