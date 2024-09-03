@@ -7,6 +7,7 @@ function EnquiryForm() {
       <Input type="text" label="Name" />
       <Input type="email" label="Email" />
       <Input type="number" label="Phone" />
+      <Input type="text" label="Subject" />
       <Textarea label="Message" />
       <Button>Submit Now</Button>
     </form>
