@@ -6,6 +6,7 @@ import carsouselImageThree from "./images/Carousel-image-3.png";
 import carsouselImageFour from "./images/Carousel-image-4.png";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import { useEffect } from "react";
 
 const imagesCarousel = [
   carsouselImageOne,
@@ -18,6 +19,7 @@ export default function Carousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
     Autoplay({ playOnInit: true, delay: 3000 }),
   ]);
+
   return (
     <div className="overflow-hidden h-[60vh]" ref={emblaRef}>
       <div className="flex h-full">
