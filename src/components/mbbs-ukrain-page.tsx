@@ -541,16 +541,19 @@ export default function MbbsUkrainPage() {
             data={[
               <>
                 Online -
-                <Link className="text-blue-400" href={"#"}>
+                <Link
+                  className="text-blue-400"
+                  href={"https://www.thevisionmed.com/contact-us"}
+                >
                   Online Registration
                 </Link>
               </>,
-              <>
-                Personal Visit to Our Nearest Office -
-                <Link className="text-blue-400" href={"#"}>
-                  Offices Near You
-                </Link>
-              </>,
+              // <>
+              //   Personal Visit to Our Nearest Office -
+              //   <Link className="text-blue-400" href={"#"}>
+              //     Offices Near You
+              //   </Link>
+              // </>,
               <>
                 You may send us email for any of your queries at{" "}
                 <Link
