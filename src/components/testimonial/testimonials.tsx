@@ -12,7 +12,7 @@ export type TestimonialType = {
 const testimonialData: TestimonialType[] = [
   {
     image: <Image src="/cutedoc.png" height={80} width={80} alt="doc1" />,
-    name: "Dr. Abhinav Kaushal - The MD House",
+    name: "Dr. Abhinav Kaushal - The Vision Medicos",
     description:
       "I Wanted A University That Challenged Me, Making Me Think Beyond The Textbook And Into The World Of Ideas. I Knew That Because BSMU Is A Committed Liberal Medical University.",
   },

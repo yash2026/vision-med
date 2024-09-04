@@ -288,19 +288,20 @@ export default function UzbekistanPage() {
           />
         </div>
         <ContentHeading className="text-2xl mt-7">
-          The MD House- Your best counsellor & guide:
+          The Vision Medicos - Your best counsellor & guide:
         </ContentHeading>
         <Paragraph className="mt-3">
-          The MD House is the organisation which helps the students in many ways
-          to get admission in the countries like Uzbekistan. They will guide for
-          admission in Top MCI result University in Uzbekistan. They are also
-          working with the medical university in Uzbekistan. Not only this, The
-          MD House is the official representative of the Samarkand State Medical
-          University, Uzbekistan. They have successfully placed more than 3500
-          students from all over India to Top rank university in Uzbekistan as
-          well as in other countries. They work with the lifelong vision for
-          student&apos;s career growth. Students can get all fact and details
-          from their experienced, tried and tested career counsellors.
+          The Vision Medicos is the organisation which helps the students in
+          many ways to get admission in the countries like Uzbekistan. They will
+          guide for admission in Top MCI result University in Uzbekistan. They
+          are also working with the medical university in Uzbekistan. Not only
+          this, The Vision Medicos is the official representative of the
+          Samarkand State Medical University, Uzbekistan. They have successfully
+          placed more than 3500 students from all over India to Top rank
+          university in Uzbekistan as well as in other countries. They work with
+          the lifelong vision for student&apos;s career growth. Students can get
+          all fact and details from their experienced, tried and tested career
+          counsellors.
         </Paragraph>
         <ContentHeading className="text-2xl mt-7">
           Top Medical Universities in Uzbekistan

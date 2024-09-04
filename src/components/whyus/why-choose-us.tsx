@@ -50,10 +50,10 @@ function Whychooseus() {
               The favourable reasons to choose us.
             </p>
             <p className="leading-7 text-white">
-              MBBS With MD House as a dependable education abroad consultant in
-              India believes in rendering the satisfactory admission abroad
-              support and solution for various courses abroad. We value your
-              career more than anything else.
+              MBBS With Vision Medicos as a dependable education abroad
+              consultant in India believes in rendering the satisfactory
+              admission abroad support and solution for various courses abroad.
+              We value your career more than anything else.
             </p>
           </div>
         </div>

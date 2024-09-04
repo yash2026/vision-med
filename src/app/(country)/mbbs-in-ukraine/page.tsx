@@ -35,10 +35,11 @@ export default function Page() {
             recognized by WHO and MCI and the medium of instruction is English.
           </UkrainLayout.Paragraph>
           <UkrainLayout.Paragraph>
-            The MD house is the official partner of MBBS admission in Ukraine
-            and is also an authorized representative of the Bukovinian State
-            Medical University in Ukraine in India. Securing an MBBS seat in
-            Ukraine is easy and hassle-free and when done through the MD House.
+            The Vision Medicos is the official partner of MBBS admission in
+            Ukraine and is also an authorized representative of the Bukovinian
+            State Medical University in Ukraine in India. Securing an MBBS seat
+            in Ukraine is easy and hassle-free and when done through the Vision
+            Medicos.
           </UkrainLayout.Paragraph>
         </UkrainLayout.FlexChildLayout>
         <UkrainLayout.FlexChildLayout>
