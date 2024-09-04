@@ -30,7 +30,7 @@ function Widget() {
               Quick Enquiry
             </Button>
             <SameStyleButton>Facebook</SameStyleButton>
-            <SameStyleButton>Linkedin</SameStyleButton>
+            <SameStyleButton>Instagram</SameStyleButton>
             <SameStyleButton>Phone</SameStyleButton>
           </div>
         </TruthyRenderer>
