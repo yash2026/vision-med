@@ -35,7 +35,7 @@ export default function WelcomeSection() {
           <div className="grid grid-cols-2 gap-3">
             <TickGernator data={data} />
           </div>
-          <div className="flex gap-10 justify-around pt-4">
+          {/* <div className="flex gap-10 justify-around pt-4">
             <Image
               src="/30-Years-image.webp"
               alt="30 years celebrating"
@@ -54,7 +54,7 @@ export default function WelcomeSection() {
               width={100}
               height={100}
             />
-          </div>
+          </div> */}
         </WelcomeSectionLayout.FlexChildLayout>
         <WelcomeSectionLayout.FlexChildLayout>
           <Image
