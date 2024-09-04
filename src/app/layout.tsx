@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Provider from "@/provider/provider";
 import Navbar from "@/components/navbar";
@@ -8,7 +8,10 @@ import Subfooter from "@/components/sub-footer";
 import Widget from "@/components/widget";
 import AddressFooter from "@/components/address-footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  weight: ["100", "200", "300", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Vision med",
@@ -28,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <Provider>
           <div className="min-h-screen flex flex-col">
             <Navbar />
