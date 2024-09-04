@@ -14,7 +14,9 @@ function BookAppointment() {
               <Input type="number" label="Phone" />
               <Input type="text" label="Address" />
             </div>
-            <Button>Book Appointment</Button>
+            <Button size="lg" color="primary">
+              Book Appointment
+            </Button>
           </div>
         </CardBody>
       </div>
