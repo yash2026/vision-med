@@ -582,7 +582,7 @@ export default function MbbsUkrainPage() {
         </div>
         <FaqBuilder
           heading="FAQs For MBBS in Ukraine"
-          faqData={accordianData["bukvonian-info"]}
+          faqData={accordianData["ukraine"]}
         />
       </MbbsUkrainPageLayout.LeftSection>
       <MbbsUkrainPageLayout.RightSection className="flex flex-col gap-10">

@@ -321,7 +321,7 @@ export default function UzbekistanPage() {
         </div>
         <FaqBuilder
           heading="MBBS in Uzbekistan - Important FAQs"
-          faqData={accordianData.samarkand}
+          faqData={accordianData.uzbekistan}
         />
       </UzbekistanPageLayout.LeftSection>
       <UzbekistanPageLayout.RightSection>
