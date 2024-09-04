@@ -22,7 +22,7 @@ export default function Carousel() {
 
   return (
     <div
-      className="overflow-hidden h-[60vh] max-[1200px]:h-[50vh] max-[1000px]:h-[40vh] max-[800px]:h-[30vh] max-[500px]:h-[20vh]"
+      className="overflow-hidden h-[60vh] max-[1200px]:h-[50vh] max-[1000px]:h-[40vh] max-[800px]:h-[30vh] max-[500px]:h-[25vh]"
       ref={emblaRef}
     >
       <div className="flex h-full">
