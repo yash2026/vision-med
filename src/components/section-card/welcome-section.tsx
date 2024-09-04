@@ -5,9 +5,9 @@ import TickIcon from "@/icons/tickIcon";
 import { ReactNode } from "react";
 
 const data = [
-  "Excellent Experience of 20 years",
-  "Assisting 3500+ MBBS Admissions",
-  "1200 guided doctors working in India",
+  "Excellent Experience",
+  "Assisting 1000+ MBBS Admissions",
+  "200 guided doctors working in India",
   "We follow NMC rules strictly",
   "Transparency in Procedures",
   "Official Admisison Partners",
