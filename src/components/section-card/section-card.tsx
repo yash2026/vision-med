@@ -3,7 +3,7 @@ import { ComponentPropsWithoutRef } from "react";
 function Root({ className, ...props }: ComponentPropsWithoutRef<"div">) {
   return (
     <div
-      className={`flex gap-5 max-[950px]:flex-col text-justify ${className}`}
+      className={`flex gap-10 max-[950px]:flex-col text-justify ${className}`}
       {...props}
     />
   );
