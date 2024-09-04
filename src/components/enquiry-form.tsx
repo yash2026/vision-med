@@ -9,7 +9,9 @@ function EnquiryForm() {
       <Input type="number" label="Phone" />
       <Input type="text" label="Subject" />
       <Textarea label="Message" />
-      <Button>Submit Now</Button>
+      <Button size="lg" color="primary">
+        Submit Now
+      </Button>
     </form>
   );
 }
