@@ -12,7 +12,7 @@ const chooseusData: WhyDataType[] = [
   {
     icon: "/rewards.svg",
     digit: 1,
-    title: "Rewarding Color",
+    title: "Rewarding Career",
     description:
       "Students pursuing higher education from abroad can have a rewarding career promising the benefit of higher and stable earnings with endless growth in the modern day life.",
   },
