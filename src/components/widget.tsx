@@ -1,13 +1,11 @@
 "use client";
-import Callicon from "@/icons/callicon";
-import Facebookicon from "@/icons/facebookicon";
-import Linkedinicon from "@/icons/linkedinicon";
-import Twittericon from "@/icons/twittericon";
 import { Button, useDisclosure } from "@nextui-org/react";
 import React, { ReactNode, useState } from "react";
 import QuickEnquiryModal from "./quick-enquiry-modal";
 import CustomerSupport from "@/icons/customer-support";
 import TruthyRenderer from "./truthy-renderer";
+import Link from "next/link";
+import widgetData from "@/data/widgets.json";
 
 function Widget() {
   const { isOpen, onOpenChange, onOpen } = useDisclosure();
@@ -29,9 +27,15 @@ function Widget() {
             <Button onPress={onOpen} variant="solid" color="warning">
               Quick Enquiry
             </Button>
-            <SameStyleButton>Facebook</SameStyleButton>
-            <SameStyleButton>Instagram</SameStyleButton>
-            <SameStyleButton>Phone</SameStyleButton>
+            <SameStyleButton>
+              <Link href={widgetData.widgetsData.twitter}>Twitter</Link>
+            </SameStyleButton>
+            <SameStyleButton>
+              <Link href={widgetData.widgetsData.instagram}>Instagram</Link>
+            </SameStyleButton>
+            <SameStyleButton>
+              <Link href={"tel:+91-70117-62602"}>Phone</Link>
+            </SameStyleButton>
           </div>
         </TruthyRenderer>
       </div>

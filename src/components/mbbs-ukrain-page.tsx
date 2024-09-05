@@ -640,7 +640,7 @@ export default function MbbsUkrainPage() {
   );
 }
 
-function CenterHeading({
+export function CenterHeading({
   className,
   ...props
 }: ComponentPropsWithoutRef<"div">) {

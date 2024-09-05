@@ -21,7 +21,7 @@ export default function Page() {
         Samarkand State Medical University
       </PageHeading>
       <BreadcrumbsBuilder breads={breadsData} />
-      <div className="mt-10">
+      <div className="mt-20">
         <HeroCard firstName="MBBS In Uzbekistan" />
       </div>
       <SamarkandPage />

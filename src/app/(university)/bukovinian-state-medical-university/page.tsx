@@ -21,7 +21,7 @@ export default function Page() {
         Bukovinian State Medical University
       </PageHeading>
       <BreadcrumbsBuilder breads={breadsData} />
-      <div className="mt-10">
+      <div className="mt-20">
         <HeroCard firstName="MBBS In Poland" />
       </div>
       <BukovinianPage />
