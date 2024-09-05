@@ -25,7 +25,7 @@ function Widget() {
           <CustomerSupport width={60} fill="#fff" />
         </Button>
         <TruthyRenderer value={supportToggle}>
-          <div className="absolute w-[300px] bottom-full right-full z-10 shadow-2xl bg-white rounded-3xl border-2 p-4 grid grid-cols-2 gap-2">
+          <div className="absolute w-[300px] bottom-full right-full z-10 shadow-2xl bg-white rounded-3xl border-2 p-4 grid grid-cols-2 gap-2 max-[500px]:grid-cols-1 max-[500px]:w-[200px]">
             <Button onPress={onOpen} variant="solid" color="warning">
               Quick Enquiry
             </Button>

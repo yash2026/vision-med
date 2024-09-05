@@ -20,7 +20,12 @@ function ContentHeading({
   className,
   ...props
 }: ComponentPropsWithoutRef<"h3">) {
-  return <h3 className={`font-bold text-[#2f4688] ${className}`} {...props} />;
+  return (
+    <h3
+      className={`font-bold leading-8 text-[#2f4688] ${className}`}
+      {...props}
+    />
+  );
 }
 function Paragraph({ className, ...props }: ComponentPropsWithoutRef<"p">) {
   return <p className={`leading-7 text-sm ${className}`} {...props} />;

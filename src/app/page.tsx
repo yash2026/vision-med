@@ -11,7 +11,7 @@ import Whychooseus from "@/components/whyus/why-choose-us";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-20">
+    <div className="flex flex-col gap-20 max-[400px]:gap-0">
       <Carousel />
       <HeroCard />
       <WelcomeSection />
