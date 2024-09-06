@@ -5,6 +5,7 @@ import navbarLinks from "@/data/navbar-links.json";
 import NavbarLink from "./navbar-link";
 import MenuIcon from "./menu-icon/menu-icon";
 import Image from "next/image";
+import widgetData from "@/data/widgets.json";
 
 export default function Navbar() {
   return (
@@ -30,8 +31,16 @@ export default function Navbar() {
           ))}
         </div>
         <div className="flex items-center gap-4 flex-1 justify-end max-[1200px]:hidden">
-          <Button variant="faded">Call Us</Button>
-          <Button variant="faded">Whats App</Button>
+          <Link href={"tel:+91-70117-62602"} className="border-0">
+            <Button variant="faded">Call Us</Button>
+          </Link>
+          <Link
+            href={widgetData.widgetsData.whatsapp}
+            target="_blank"
+            className="border-0"
+          >
+            <Button variant="faded">Whats App</Button>
+          </Link>
         </div>
       </WidthWrapper>
     </header>

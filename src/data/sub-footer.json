@@ -1,12 +1,12 @@
 {
-  "Quicklink": [
+  "Quick Link": [
     {
       "name": "Home",
-      "path": "/home"
+      "path": "/"
     },
     {
       "name": "About Us",
-      "path": "/aboutus"
+      "path": "/about"
     },
     {
       "name": "Gallery",
@@ -14,27 +14,27 @@
     },
     {
       "name": "Contact Us",
-      "path": "/contactus"
+      "path": "/contact-us"
     }
   ],
   "Countries": [
     {
       "name": "Uzbekistan",
-      "path": "/uzbekistan"
+      "path": "/mbbs-in-uzbekistan"
     },
     {
       "name": "Ukraine",
-      "path": "/ukraine"
+      "path": "/mbbs-in-ukraine"
     }
   ],
   "Universities": [
     {
       "name": "Samarkand State Medical university",
-      "path": "/samarkand"
+      "path": "/samarkand-state-medical-university"
     },
     {
       "name": "Bukovinian State Medical university",
-      "path": "/bukovinian"
+      "path": "/bukovinian-state-medical-university"
     }
   ]
 }
