@@ -26,15 +26,15 @@ export default function BukovinianFeePage() {
               `BSMU is one of the first medical university wo started teaching Indian students in English Medium`,
               `BSMU is the only university of Ukraine to have separate Girls Hostel for Indian girls.`,
               `BSMU has most active Indian Students Society which works for the welfare of Indian students studying in university`,
-              `The MD House is official Authorized Representative of BSMU in Asia which is operated by its one of the graduate & alumni from India.`,
+              `The Vision Medicos is official Authorized Representative of BSMU in Asia which is operated by its one of the graduate & alumni from India.`,
               `BSMU is the only university of Ukraine where students may pay Tuition fee directly to university account from the very beginning.`,
               `BSMU has the largest Alumni of more than 800 Indian doctors working in Government & Private hospitals in all states of India after successfully passing MCI exam in their 1st attempts.`,
             ]}
           />
         </div>
         <ContentHeading className="text-[24px] mt-7">
-          “THE MD HOUSE” IS OFFICIAL AUTHORIZED REPRESENTATIVE OF “BUKOVINIAN
-          STATE MEDICAL UNIVERSITY” IN ASIA
+          “THE Vision Medicos” IS OFFICIAL AUTHORIZED REPRESENTATIVE OF
+          “BUKOVINIAN STATE MEDICAL UNIVERSITY” IN ASIA
         </ContentHeading>
         <ContentHeading className="text-2xl mt-7">
           Fees to Study MBBS at the BSMU:
