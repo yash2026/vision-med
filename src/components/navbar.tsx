@@ -9,7 +9,7 @@ import widgetData from "@/data/widgets.json";
 
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 w-full z-[100] border-b-1 h-[70px]  px-10 max-[1250px]:px-5 bg-white">
+    <header className="fixed top-0 left-0 w-full z-[100] border-b-1 h-[70px]  px-10 max-[1250px]:px-5 max-[450px]:px-1 bg-white">
       <WidthWrapper className="flex justify-between items-center h-full">
         <div className="flex-1 max-[800px]:py-2">
           <Link href={"/"}>

@@ -541,10 +541,7 @@ export default function MbbsUkrainPage() {
             data={[
               <>
                 Online -
-                <Link
-                  className="text-blue-400"
-                  href={"https://www.thevisionmed.com/contact-us"}
-                >
+                <Link className="text-blue-400" href={"/contact-us"}>
                   Online Registration
                 </Link>
               </>,

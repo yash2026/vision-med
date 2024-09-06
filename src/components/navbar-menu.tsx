@@ -36,12 +36,13 @@ export default function NavbarMenu({
               {item?.name}
             </p>
             <TruthyRenderer value={toggle === item.name}>
-              <div className="flex flex-col gap-2 bg-gray-100 p-2">
+              <div className="flex flex-col gap-2 max-[450px]:gap-3 rounded-lg  bg-gray-100 p-3">
                 {item.subPaths?.map((item, index) => (
                   <Link
                     onClick={() => closeState(false)}
                     key={index}
                     href={item.path}
+                    className="font-semibold text-base"
                   >
                     {item.name}
                   </Link>
