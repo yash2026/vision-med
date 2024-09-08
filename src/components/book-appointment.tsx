@@ -66,7 +66,7 @@ function BookAppointment() {
               className="flex flex-col gap-3"
             >
               <Input type="text" label="Name" name="user_name" />
-              <Input type="email" label="Email" name="user_mail" />
+              <Input type="email" label="Email" name="user_email" />
               <Input type="number" label="Phone" name="user_phone" />
               <Input type="text" label="Address" name="user_address" />
               <Button
