@@ -17,7 +17,7 @@ const data = [
 
 export default function WelcomeSection() {
   return (
-    <WidthWrapper className="max-[1250px]:px-10 max-[600px]:px-4">
+    <WidthWrapper>
       <WelcomeSectionLayout.Root>
         <WelcomeSectionLayout.FlexChildLayout className="flex flex-col gap-8 text-sm">
           <WelcomeSectionLayout.ContentHeading className="text-[25px]">
