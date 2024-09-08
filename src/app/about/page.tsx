@@ -10,7 +10,7 @@ import FaqData from "@/data/faqsdata.json";
 function Page() {
   return (
     <WidthWrapper>
-      <div className="mt-24">
+      <div className="mt-24 max-[500px]:mt-10">
         <WelcomeSection />
         <AboutPageLayout.Root className="text-sm mt-20 gap-10">
           <AboutPageLayout.LeftSection className="flex flex-col gap-4">
