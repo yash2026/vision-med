@@ -28,7 +28,7 @@ function Section4card() {
             Pediatrics, Medical Psychology, Clinical Pharmacy.
           </p>
         </Section4Layout.FlexChildLayout>
-        <Section4Layout.FlexChildLayout>
+        <Section4Layout.FlexChildLayout className="max-[880px]:self-center ">
           <Image
             src="/images/Bukovinian-Ukraine.jpg"
             alt="Welcome Image"

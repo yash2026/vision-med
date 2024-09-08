@@ -56,7 +56,7 @@ export default function WelcomeSection() {
             />
           </div> */}
         </WelcomeSectionLayout.FlexChildLayout>
-        <WelcomeSectionLayout.FlexChildLayout>
+        <WelcomeSectionLayout.FlexChildLayout className="max-[880px]:self-center">
           <Image
             src="/images/welcome_page_doctor.jpg"
             alt="Welcome Image"

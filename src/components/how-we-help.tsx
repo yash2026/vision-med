@@ -18,19 +18,19 @@ function Howhelp() {
           we are there not only for your admission but also for your graduation!
         </p>
       </div>
-      <div className="hidden max-[800px]:block mb-10">
+      <div className="hidden max-[800px]:flex mb-10 items-center justify-center">
         <Image
-          src="/doctorduet.webp"
+          src="/doctors-help.png"
           width={500}
           height={400}
-          className="max-w-[500px]"
+          className="max-w-[500px] "
           alt="doctor image"
         />
       </div>
       <div className="grid grid-cols-[1.5fr_3fr] max-[800px]:grid-cols-1 text-sm max-[550px]:gap-4">
         <div className="max-[800px]:hidden">
           <Image
-            src="/doctorduet.webp"
+            src="/doctors-help.png"
             width={500}
             height={400}
             alt="doctor image"

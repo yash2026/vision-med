@@ -6,7 +6,7 @@ function Section2card() {
   return (
     <WidthWrapper className="max-[1250px]:px-10 max-[600px]:px-4">
       <Section2Layout.Root className="pt-12">
-        <Section2Layout.FlexChildLayout>
+        <Section2Layout.FlexChildLayout className="self-center justify-center">
           <Image
             src="/images/Samarkand-University.jpg"
             alt="Welcome Image"
