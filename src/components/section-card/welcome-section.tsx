@@ -6,8 +6,8 @@ import { ReactNode } from "react";
 
 const data = [
   "Excellent Experience",
-  "Assisting 1000+ MBBS Admissions",
-  "200 guided doctors working in India",
+  "Assisting 500+ MBBS Admissions",
+  "50 guided doctors working in India",
   "We follow NMC rules strictly",
   "Transparency in Procedures",
   "Official Admisison Partners",
@@ -21,16 +21,16 @@ export default function WelcomeSection() {
       <WelcomeSectionLayout.Root>
         <WelcomeSectionLayout.FlexChildLayout className="flex flex-col gap-8 text-sm">
           <WelcomeSectionLayout.ContentHeading className="text-[25px]">
-            Welcome To MBBS With Vision Medicos
+            Welcome To MBBS With Vision Med
           </WelcomeSectionLayout.ContentHeading>
           <p className="leading-7">
-            The Vision Medicos has guided more than 1000 MBBS students from
-            India 200 MBBS students completed degrees and practicing in India &
-            Abroad, The Vision Medicos helps students in saving valuable money,
-            We always try to control overall expenses.The Vision Medicos works
-            with the lifelong vision for student’s career growth. The Vision
-            Medicos has been identified as the most trusted career partner by
-            thousands of satisfied students and parents.
+            The Vision Med has guided more than 500 MBBS students from India 50
+            MBBS students completed degrees and practicing in India & Abroad,
+            The Vision Med helps students in saving valuable money, We always
+            try to control overall expenses.The Vision Med works with the
+            lifelong vision for student’s career growth. The Vision Med has been
+            identified as the most trusted career partner by thousands of
+            satisfied students and parents.
           </p>
           <div className="grid grid-cols-2 gap-3">
             <TickGernator data={data} />

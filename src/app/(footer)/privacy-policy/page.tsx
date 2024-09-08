@@ -19,7 +19,7 @@ export default function page() {
       <PageHeading className="mt-10">Privacy Policy</PageHeading>
       <BreadcrumbsBuilder breads={breadsData} />
       <Paragraph className="mt-10">
-        Vision medicos is committed to protecting your privacy. We collect and
+        The Vision Med is committed to protecting your privacy. We collect and
         use your personal information only for the purpose of providing you with
         the services you have requested. We may use your personal information to
         communicate with you about our services and to improve our offerings. We

@@ -35,11 +35,11 @@ export default function Page() {
             recognized by WHO and MCI and the medium of instruction is English.
           </UkrainLayout.Paragraph>
           <UkrainLayout.Paragraph>
-            The Vision Medicos is the official partner of MBBS admission in
-            Ukraine and is also an authorized representative of the Bukovinian
-            State Medical University in Ukraine in India. Securing an MBBS seat
-            in Ukraine is easy and hassle-free and when done through the Vision
-            Medicos.
+            The Vision Med is the official partner of MBBS admission in Ukraine
+            and is also an authorized representative of the Bukovinian State
+            Medical University in Ukraine in India. Securing an MBBS seat in
+            Ukraine is easy and hassle-free and when done through the Vision
+            Med.
           </UkrainLayout.Paragraph>
         </UkrainLayout.FlexChildLayout>
         <UkrainLayout.FlexChildLayout>

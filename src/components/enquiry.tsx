@@ -7,11 +7,11 @@ function Enquiry() {
   return (
     <div className="p-16 max-[650px]:p-8 max-[500px]:p-0">
       <WidthWrapper>
-        <div className="flex gap-4">
+        <div className="flex gap-4 justify-evenly">
           <EnquiryCard />
-          <div className="max-[800px]:hidden">
+          <div className="max-[880px]:hidden self-center ">
             <Image
-              src="/cutedoc.png"
+              src="/cutedoctor.png"
               width={500}
               height={500}
               alt="Doctor Image"

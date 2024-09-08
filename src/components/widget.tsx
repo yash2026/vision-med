@@ -34,9 +34,7 @@ function Widget() {
               <Link href={widgetData.widgetsData.instagram}>Instagram</Link>
             </SameStyleButton>
             <SameStyleButton>
-              <Link href={"tel:+91-70117-62602"} className="border-0">
-                Phone
-              </Link>
+              <Link href={widgetData.widgetsData.whatsapp}>Whats App</Link>
             </SameStyleButton>
           </div>
         </TruthyRenderer>

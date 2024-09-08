@@ -55,8 +55,8 @@ export default function MbbsUkrainPage() {
           The Tuition fees can be paid at the university account directly and
           can be paid in two installments, semester wise. There is no donation
           or any hidden fee incurred for MBBS admission in Ukrainian medical
-          universities. The Vision Medicos will not charge any additional fee
-          for booking an MBBS seat in Ukraine.
+          universities. The Vision Med will not charge any additional fee for
+          booking an MBBS seat in Ukraine.
         </Paragraph>
         <div className="mt-3">
           <TableRow>
@@ -220,13 +220,13 @@ export default function MbbsUkrainPage() {
           Reserve a Seat in MBBS Ukraine Admission 2024
         </ContentHeading>
         <Paragraph className="mt-3">
-          The Vision Medicos is one of the best MBBS career counselors for
-          Indian Students, looking forward to pursuing foreign medical degrees.
-          We help them to get direct admission for MBBS, based on the 12 th
-          marks, even before their NEET scores are announced. Through Vision
-          Medicos, Indian students can block an MBBS degree in Ukrainian
-          Universities and start practicing in India after clearing the
-          screening test proposed by the Medical Council of India.
+          The Vision Med is one of the best MBBS career counselors for Indian
+          Students, looking forward to pursuing foreign medical degrees. We help
+          them to get direct admission for MBBS, based on the 12 th marks, even
+          before their NEET scores are announced. Through Vision Med, Indian
+          students can block an MBBS degree in Ukrainian Universities and start
+          practicing in India after clearing the screening test proposed by the
+          Medical Council of India.
         </Paragraph>
         <Paragraph className="mt-3">
           Our experience and knowledge in MBBS admission, visa laws, immigration
@@ -286,11 +286,11 @@ export default function MbbsUkrainPage() {
           />
         </div>
         <ContentHeading className="text-2xl mt-7">
-          WHY THE Vision Medicos? WHY BSMU?
+          WHY THE Vision Med? WHY BSMU?
         </ContentHeading>
         <Paragraph className="mt-3">
-          THE Vision Medicos” IS OFFICIAL AUTHORIZED REPRESENTATIVE OF
-          “BUKOVINIAN STATE MEDICAL UNIVERSITY
+          THE Vision Med” IS OFFICIAL AUTHORIZED REPRESENTATIVE OF “BUKOVINIAN
+          STATE MEDICAL UNIVERSITY
         </Paragraph>
         <div className="mt-3 flex flex-col gap-3">
           <TickGernator
@@ -304,7 +304,7 @@ export default function MbbsUkrainPage() {
               "BSMU is one of the first medical university wo started teaching Indian students in English Medium",
               "BSMU is the only university of Ukraine to have separate Girls Hostel for Indian girls.",
               "BSMU has most active Indian Students Society which works for the welfare of Indian students studying in university",
-              "The Vision Medicos is official Authorized Representative of BSMU in Asia which is operated by its one of the graduate & alumni from India.",
+              "The Vision Med is official Authorized Representative of BSMU in Asia which is operated by its one of the graduate & alumni from India.",
               "BSMU is the only university of Ukraine where students may pay Tuition fee directly to university account from the very beginning.",
               "BSMU has the largest Alumni of more than 800 Indian doctors working in Government & Private hospitals in all states of India after successfully passing MCI exam in their 1st attempts.",
             ]}
@@ -530,7 +530,7 @@ export default function MbbsUkrainPage() {
           Application Process
         </ContentHeading>
         <ContentHeading className="mt-3 text-red-500">
-          Apply for MBBS in Ukraine Admission 2024-25 Through The Vision Medicos
+          Apply for MBBS in Ukraine Admission 2024-25 Through The Vision Med
           Today!
         </ContentHeading>
         <Paragraph className="mt-3">

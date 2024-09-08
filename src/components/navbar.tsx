@@ -31,14 +31,10 @@ export default function Navbar() {
           ))}
         </div>
         <div className="flex items-center gap-4 flex-1 justify-end max-[1200px]:hidden">
-          <Link href={"tel:+91-70117-62602"} className="border-0">
+          <Link href={"tel:+91-70117-62602"}>
             <Button variant="faded">Call Us</Button>
           </Link>
-          <Link
-            href={widgetData.widgetsData.whatsapp}
-            target="_blank"
-            className="border-0"
-          >
+          <Link href={widgetData.widgetsData.whatsapp} target="_blank">
             <Button variant="faded">Whats App</Button>
           </Link>
         </div>

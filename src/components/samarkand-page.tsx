@@ -95,13 +95,13 @@ export default function SamarkandPage() {
           <SamarkandPageLayout.Paragraph className="mt-3">
             Want to study MBBS abroad in one of the oldest medical universities
             in Central Asia? Then the Samarkand State medical university
-            Uzbekistan should be your ultimate destination. We at the Vision
-            Medicos are experts in placing Indian Students in this medical
-            university in Uzbekistan and we pre-book an MBBS seat in your name,
-            well ahead of the placement procedure in India. Being a reputed and
-            well established medical education consultants in India to have
-            helped thousands of Indian students in the past to get placed in the
-            best foreign medical universities.
+            Uzbekistan should be your ultimate destination. We at the Vision Med
+            are experts in placing Indian Students in this medical university in
+            Uzbekistan and we pre-book an MBBS seat in your name, well ahead of
+            the placement procedure in India. Being a reputed and well
+            established medical education consultants in India to have helped
+            thousands of Indian students in the past to get placed in the best
+            foreign medical universities.
           </SamarkandPageLayout.Paragraph>
           <SamarkandPageLayout.ContentHeading className="text-2xl mt-14">
             About Samarkand State Medical University:
@@ -156,7 +156,7 @@ export default function SamarkandPage() {
             />
           </div>
           <SamarkandPageLayout.Paragraph className="mt-3">
-            The Vision Medicos helps students with the appropriate application
+            The Vision Med helps students with the appropriate application
             process for an MBBS degree at the Samarkand State medical university
             Uzbekistan. With us, you can be sure of your MBBS seat, as we block
             a seat in the university at your name well in advance. We make sure

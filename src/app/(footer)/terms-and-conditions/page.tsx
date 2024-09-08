@@ -19,7 +19,7 @@ export default function page() {
       <PageHeading className="mt-10">Terms and conditions</PageHeading>
       <BreadcrumbsBuilder breads={breadsData} />
       <Paragraph className="mt-10">
-        The terms and conditions of Vision medicos govern the use of our website
+        The terms and conditions of The Vision Med govern the use of our website
         and the services we offer. By using our website and services, you agree
         to be bound by these terms and conditions. We reserve the right to
         modify these terms and conditions at any time without notice. It is your

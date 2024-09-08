@@ -12,21 +12,21 @@ export type TestimonialType = {
 const testimonialData: TestimonialType[] = [
   {
     image: <Image src="/cutedoc.png" height={80} width={80} alt="doc1" />,
-    name: "Dr. Abhinav Kaushal - The Vision Medicos",
+    name: "Ashish Dabas",
     description:
-      "I Wanted A University That Challenged Me, Making Me Think Beyond The Textbook And Into The World Of Ideas. I Knew That Because BSMU Is A Committed Liberal Medical University.",
+      "I Wanted A University That Challenged Me, Making Me Think Beyond The Textbook And Into The World Of Ideas. I Knew That Because SSMU Is A Committed Liberal Medical University.",
   },
   {
     image: <Image src="/cutedoc.png" height={80} width={80} alt="doc2" />,
-    name: "Dr. Jasdeep Brar",
+    name: "Anisha",
     description:
-      " Once I Got Admission In I Guessed My Dreams Came Through. I Was Searching For A Good Medical Institution That Could Make Me An Internationally Reputed Doctor. I Found It Here At BSMU.",
+      " Once I Got Admission In I Guessed My Dreams Came Through. I Was Searching For A Good Medical Institution That Could Make Me An Internationally Reputed Doctor. I Found It Here At SSMU.",
   },
   {
     image: <Image src="/cutedoc.png" height={80} width={80} alt="doc3" />,
-    name: "Dr. Navjot Singh Ghumaan",
+    name: "Tarun Sharma",
     description:
-      "BSMU encouraged me to pursue my other interests outside Medicine and still maintain top-grades. If you are imaginative, persevering and motivated, BSMU is the place for you.",
+      "SSMU encouraged me to pursue my other interests outside Medicine and still maintain top-grades. If you are imaginative, persevering and motivated, SSMU is the place for you.",
   },
 ];
 

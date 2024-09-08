@@ -36,9 +36,9 @@ export default function Page() {
           </UzbekistanLayout.ContentHeading>
           <UzbekistanLayout.Paragraph className="mt-3">
             MBBS in Uzbekistan is a very popular medical degree. In Uzbekistan,
-            it is estimated that there are currently around 1,000 MBBS
-            graduates. Many of these graduates go on to work as doctors in
-            Uzbekistan, while others move to other countries to work as doctors.
+            it is estimated that there are currently around 500 MBBS graduates.
+            Many of these graduates go on to work as doctors in Uzbekistan,
+            while others move to other countries to work as doctors.
           </UzbekistanLayout.Paragraph>
           <UzbekistanLayout.Paragraph className="mt-3">
             The cost of studying MBBS in Uzbekistan is relatively low, and the
