@@ -23,10 +23,13 @@ export default function GalleyModal({
   }, [emblaThumbsApi, selectedIndex]);
 
   return (
-    <div
-      onClick={() => setImageState(null)}
-      className="fixed top-0 left-0 w-screen h-screen bg-black/80 z-10"
-    >
+    <div className="fixed top-0 left-0 w-screen h-screen bg-black/80 z-[100]">
+      <button
+        onClick={() => setImageState(null)}
+        className="absolute top-5 right-5 w-[40px] h-[40px] rounded-full flex items-center justify-center border-white border text-white"
+      >
+        x
+      </button>
       <button
         onClick={(e) => {
           e.stopPropagation();

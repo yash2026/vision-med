@@ -2,6 +2,7 @@ import navbarLinks from "@/data/navbar-links.json";
 import { Dispatch, SetStateAction, useState } from "react";
 import TruthyRenderer from "./truthy-renderer";
 import Link from "next/link";
+import Downarrow from "@/icons/downarrow";
 
 export default function NavbarMenu({
   closeState,
@@ -23,7 +24,7 @@ export default function NavbarMenu({
             </Link>
           </TruthyRenderer>
           <TruthyRenderer value={!item?.path}>
-            <p
+            <div
               onClick={() => {
                 if (toggle === null || toggle !== item.name) {
                   setToggle(item.name);
@@ -31,10 +32,11 @@ export default function NavbarMenu({
                   setToggle(null);
                 }
               }}
-              className="font-semibold cursor-pointer"
+              className="w-full flex justify-between"
             >
-              {item?.name}
-            </p>
+              <p className="font-semibold cursor-pointer">{item?.name}</p>
+              <Downarrow width={10} height={10} />
+            </div>
             <TruthyRenderer value={toggle === item.name}>
               <div className="flex flex-col gap-2 max-[450px]:gap-3 rounded-lg  bg-gray-100 p-3">
                 {item.subPaths?.map((item, index) => (

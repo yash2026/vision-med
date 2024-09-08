@@ -56,7 +56,7 @@ export default function GalleryPage() {
           </button>
         ))}
       </div>
-      <TruthyRenderer value={Boolean(selectedImage)}>
+      <TruthyRenderer value={selectedImage !== null}>
         <GalleyModal
           setImageState={setSelectedImage}
           images={imagesData}
