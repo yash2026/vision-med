@@ -23,12 +23,20 @@ function Howhelp() {
           src="/doctorduet.webp"
           width={500}
           height={400}
-          className="w-full"
+          className="max-w-[500px]"
           alt="doctor image"
         />
       </div>
-      <div className="grid grid-cols-[1fr_1.5fr_1fr] max-[800px]:grid-cols-2 text-sm max-[550px]:grid-cols-1 max-[550px]:gap-4">
-        <div className="flex flex-col gap-20 max-[550px]:gap-4">
+      <div className="grid grid-cols-[1.5fr_3fr] max-[800px]:grid-cols-1 text-sm max-[550px]:gap-4">
+        <div className="max-[800px]:hidden">
+          <Image
+            src="/doctorduet.webp"
+            width={500}
+            height={400}
+            alt="doctor image"
+          />
+        </div>
+        <div className="grid grid-cols-2 gap-10 max-[490px]:grid-cols-1 max-[600px]:gap-4 max-[490px]:gap-10">
           <div className="flex gap-2 items-start">
             <div className="w-[60px]">
               <AdmSupport
@@ -65,16 +73,6 @@ function Howhelp() {
               </p>
             </div>
           </div>
-        </div>
-        <div className="max-[800px]:hidden">
-          <Image
-            src="/doctorduet.webp"
-            width={500}
-            height={400}
-            alt="doctor image"
-          />
-        </div>
-        <div className="flex flex-col gap-20 max-[550px]:gap-4">
           <div className="flex gap-2">
             <div className="w-[60px]">
               <Coaching
@@ -93,7 +91,6 @@ function Howhelp() {
               </p>
             </div>
           </div>
-
           <div className="flex gap-2">
             <div className="w-[60px]">
               <Hostels
