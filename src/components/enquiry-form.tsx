@@ -49,7 +49,7 @@ function EnquiryForm() {
       <Input type="email" label="Email" name="user_email" />
       <Input type="number" label="Phone" name="user_phone" />
       <Input type="number" max={720} label="Neet Score" name="user_neet" />
-      <Input type="text" label="12th Passed Year" name="user_12th" />
+      <Input type="text" label="12th Passing Year" name="user_12th" />
       <Textarea label="Message" name="user_message" />
       <Button
         disabled={loading}
