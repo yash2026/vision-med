@@ -23,7 +23,7 @@ function Howhelp() {
           src="/doctors-help.png"
           width={500}
           height={400}
-          className="max-w-[500px] "
+          className="max-w-full "
           alt="doctor image"
         />
       </div>
