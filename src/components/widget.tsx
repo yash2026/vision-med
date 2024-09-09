@@ -36,6 +36,9 @@ function Widget() {
             <SameStyleButton>
               <Link href={widgetData.widgetsData.whatsapp}>Whats App</Link>
             </SameStyleButton>
+            <SameStyleButton>
+              <Link href={widgetData.widgetsData.linkedin}>Linkedin</Link>
+            </SameStyleButton>
           </div>
         </TruthyRenderer>
       </div>
