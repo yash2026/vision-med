@@ -8,6 +8,7 @@ import Section4card from "@/components/section-card/section4-card";
 import WelcomeSection from "@/components/section-card/welcome-section";
 import Testimonials from "@/components/testimonial/testimonials";
 import Whychooseus from "@/components/whyus/why-choose-us";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Whychooseus />
       <Enquiry />
       <Testimonials />
+      <Analytics />
     </div>
   );
 }
