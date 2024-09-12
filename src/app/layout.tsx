@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import Subfooter from "@/components/sub-footer";
 import Widget from "@/components/widget";
 import AddressFooter from "@/components/address-footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "500", "600", "700", "800", "900"],
@@ -40,6 +41,7 @@ export default function RootLayout({
             <Subfooter />
             <AddressFooter />
             <Footer />
+            <Analytics />
           </div>
         </Provider>
       </body>

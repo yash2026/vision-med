@@ -12,7 +12,7 @@ function Widget() {
   const [supportToggle, setSupportToggle] = useState(false);
   return (
     <>
-      <div className="fixed top-[90vh] right-3">
+      <div className="fixed bottom-2 right-3">
         <Button
           title="click on this to open and close support menu"
           onClick={() => setSupportToggle(!supportToggle)}
